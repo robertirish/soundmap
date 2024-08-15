@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Field report&colon; Tivoli Bays
+title: Field report—Tivoli Bays river habitat
 categories: [field report, tivoli, tivoli bays, wildlife, nature]
 ---
 
