@@ -1,0 +1,78 @@
+// declare additional variables
+$lightGreen: #DDEEd7;
+$paleGreen: #5C8B49;
+$green: #37582A;
+
+// fix figcaption styling 
+figcaption {
+	text-align: left;
+	margin-top: -5px;
+	color: $gray;
+	opacity: .5;
+	transition: opacity 0.5s ease;
+}
+
+figure {
+	a {
+		display: block;
+
+		&:hover, 
+		&:focus {
+			+ figcaption {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+// fix margin at top of message and report notes
+.message,
+.report-notes {
+	margin-top: 35px;
+
+	*:first-child {
+		margin-top: 0;
+	}
+}
+
+// style report notes
+.report-notes {
+	h3 {
+		display: block;
+		padding-bottom: 5px;
+		border-bottom: 3px solid $paleGreen;
+	}
+
+	padding: 30px;
+	margin-bottom: 30px;
+	background-color: $lightGreen;
+	border-radius: 3px;
+
+	dt,
+	dd {
+		margin-top: 10px;
+	}
+
+	dt {
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	// dt.notes {
+	// 	margin-top: 20px;
+
+	// 	+ dd {
+	// 		display: block;
+	// 	}
+	// }
+
+	dd {
+		display: inline;
+		
+		&:after {
+	  		display: block;
+	  		content: '';
+		}
+	}
+}
+
