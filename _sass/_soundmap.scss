@@ -3,6 +3,11 @@ $lightGreen: #DDEEd7;
 $paleGreen: #5C8B49;
 $green: #37582A;
 
+// fix dark mode button so it doesn't get hidden behind images
+.darkmode-toggle {
+	z-index: 1000;
+}
+
 // fix figcaption styling 
 figcaption {
 	text-align: left;
@@ -37,16 +42,16 @@ figure {
 
 // style report notes
 .report-notes {
+	padding: 30px;
+	margin-bottom: 30px;
+	background-color: $lightGreen;
+	border-radius: 3px;
+
 	h3 {
 		display: block;
 		padding-bottom: 5px;
 		border-bottom: 3px solid $paleGreen;
 	}
-
-	padding: 30px;
-	margin-bottom: 30px;
-	background-color: $lightGreen;
-	border-radius: 3px;
 
 	dt,
 	dd {
@@ -57,14 +62,6 @@ figure {
 		font-weight: bold;
 		display: inline-block;
 	}
-
-	// dt.notes {
-	// 	margin-top: 20px;
-
-	// 	+ dd {
-	// 		display: block;
-	// 	}
-	// }
 
 	dd {
 		display: inline;
