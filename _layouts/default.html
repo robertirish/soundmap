@@ -5,7 +5,7 @@
 
     {% seo title=false %}
     {% if page.title %}
-    <title>{{ page.title }}&#32;&#45;&#32;{{ site.description }}&#32;&#45;&#32;{{ site.title }}</title>
+    <title>{{ page.title }}&#32;&#45;&#32;{{ site.title }}</title>
     {% else %}
     <title>{{ site.description }}&#32;&#45;&#32;{{ site.title }}</title>
     {% endif %}
@@ -87,6 +87,23 @@
       </div>
     </div>
 
+    <script type="text/javascript">
+      // https://alexmansfield.com/javascript/preventing-widows-orphans-with-javascript/
+      var nbspSelectors = ['h2','h3','h4','h5','h6','p','blockquote','dd']; //
+
+      var nbspWordMin = 2; // only stop widows on lines with X words or more
+
+      nbspSelectors.forEach(function(selector) {
+        var nbspElements = document.querySelectorAll(selector);
+        nbspElements.forEach(function(element) {
+          var wordCount = (element.innerHTML.split(" ").length);
+          if (wordCount >= nbspWordMin ) {
+            element.innerHTML = element.innerHTML.replace(/ ([^ ]*)$/,'&nbsp;$1');
+          }
+        });
+      });
+    </script>
+    
     <script defer src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
     <script>
       const player = new Plyr("#player", { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1, playsinline: 1 , enablejsapi: 1, autoplay: 0, focused: true, global: false });
