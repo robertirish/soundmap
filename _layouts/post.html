@@ -9,6 +9,10 @@ layout: default
     <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;Date:<span style="color: #333333; font-weight: normal;">&nbsp;{{ page.date | date: "%B %e, %Y" }}</span>
   </div>
 
+  {% if page.categories contains "field report" %}
+  <div id="skip_to_notes" class="skip-to-notes"><i class="fa fa-file-text fa-fw" aria-hidden="true"></i>&nbsp;<a class="categories-button" href="#report_notes">Skip to report notes</a></div>
+  {% endif %}
+
   <div class="entry">
     {{ content }}
     <hr>
@@ -41,3 +45,11 @@ layout: default
   </div>
 
 </article>
+
+<script type="text/javascript">
+  if ( document.getElementById("report_notes") ) {
+    // do nothing
+  } else {
+    document.getElementById("skip_to_notes").remove();
+  }
+</script>
