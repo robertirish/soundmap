@@ -14,8 +14,8 @@ Unfortunately I didn't capture a full nights audio as I had hoped, because I had
 
 Luckily for me Tivoli Bays is only a short distance away and I can go back to capture the ambience for a second time. Better to make this mistake now than at a location that is less easily accessible. Very frustrating nonetheless!
 
-<div class="report-notes">
-	<h3>Report summary</h3>
+<div id="report_notes" class="report-notes">
+	<h3>Report notes</h3>
 	<dl>
 		<dt>Date:</dt> 
 			<dd>2024-08-14</dd>
