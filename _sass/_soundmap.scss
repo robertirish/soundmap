@@ -3,6 +3,11 @@ $lightGreen: #DDEEd7;
 $paleGreen: #5C8B49;
 $green: #37582A;
 
+// enable smooth-scroll
+html {
+  scroll-behavior: smooth;
+}
+
 // fix dark mode button so it doesn't get hidden behind images
 .darkmode-toggle {
 	z-index: 1000;
@@ -73,3 +78,17 @@ figure {
 	}
 }
 
+// skip to report summary link styles
+h1 + .date {
+	display: inline-block;
+}
+
+.date + .skip-to-notes::before {
+	display: inline-block;
+	content: "|";
+	padding: 0 10px;
+}
+
+.skip-to-notes {
+	display: inline-block;
+}
