@@ -99,4 +99,77 @@ h1 + .date {
 .skip-to-notes {
 	display: inline-block;
 }
+
+// ensure masthead & footer are on top
+.wrapper-masthead,
+.wrapper-footer {
+	background-color: $white;
+	position: relative;
+	z-index: 500;
+}
+
+// map page
+.page-map {
+	[role="main"].container {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		position: relative;
+		max-width: 100%;
+		width: 100%;
+		height: 100%;
+
+		.page {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		h1:first-child {
+			@include visually-hidden;
+		}
+	}
+
+	.page,
+	.entry,
+	#map {
+		width: 100%;
+		height: 100%;
+	}
+
+	.wrapper-footer {
+		margin-top: 0;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		z-index: 500;
+	}
+}
+
+#display_hidden_markers {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	font-size: 0.75rem;
+	text-align: right;
+	opacity: 0;
+	white-space: nowrap;
+
+	&.visible {
+		opacity: 1;
+		width: auto;
+	}
+}
+
+.marker-hidden {
+	display: none !important;
+
+	&.marker-show {
+		display: block !important;
+	}
 }
