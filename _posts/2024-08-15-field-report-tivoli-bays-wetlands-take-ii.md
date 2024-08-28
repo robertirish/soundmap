@@ -18,22 +18,24 @@ There are some interesting parts in the recording, with frogs barking intermitte
 
 I inadvertently captured some good train-bys (there must be a freight line passing through the reservoir that I was unaware of), and these are probably the best, or at least the most representative, parts the recording. If I’m lucky I’ll get a few clean minutes of wildlife, but I think the outcome is positive regardless—I’ve learned more about my equipment, captured some sounds I wasn’t expecting to hear, and generated some ideas for future drop rigs.
 
-<div id="report_notes" class="report-notes">
-	<h3>Report notes</h3>
-	<dl>
-		<dt>Date:</dt> 
-			<dd>2024-08-15</dd>
-		<dt>Time:</dt> 
-			<dd>20:30-07:30</dd>
-		<dt>Location:</dt> 
-			<dd>Tivoli Bays wetlands, Tivoli, NY, USA</dd>
-		<dt>Recorder/settings:</dt> 
-			<dd>Sony PCM-M10, gain 4.5, limiter on</dd>
-		<dt>Sample rate/bit depth:</dt> 
-			<dd>96/24</dd>
-		<dt>Microphones:</dt> 
-			<dd>MicBooster Clippys (stereo pair), tree ears</dd>
-		<dt class="details">Comments:</dt> 
-			<dd>Left channel microphone faded in and out very slowly and at random, starting about 5 hours into the recording—possibly due to humidity/moisture. Recorder was still running strong on two AAs when I picked it up. Good stereo image using tree ears setup. Noise pollution from motor vehicle engines every minute or so. Inadvertently captured some freight train-bys which might make for the best recordings from this excursion.</dd>
-	</dl>
+<div id="report_notes" class="report-notes-container">
+	<div class="report-notes">
+		<h3>Report notes</h3>
+		<dl>
+			<dt>Date:</dt> 
+				<dd>2024-08-15</dd>
+			<dt>Time:</dt> 
+				<dd>20:30-07:30</dd>
+			<dt>Location:</dt> 
+				<dd>Tivoli Bays wetlands, Tivoli, NY, USA</dd>
+			<dt>Recorder/settings:</dt> 
+				<dd>Sony PCM-M10, gain 4.5, limiter on</dd>
+			<dt>Sample rate/bit depth:</dt> 
+				<dd>96/24</dd>
+			<dt>Microphones:</dt> 
+				<dd>MicBooster Clippys (stereo pair), tree ears</dd>
+			<dt class="details">Comments:</dt> 
+				<dd>Left channel microphone faded in and out very slowly and at random, starting about 5 hours into the recording—possibly due to humidity/moisture. Recorder was still running strong on two AAs when I picked it up. Good stereo image using tree ears setup. Noise pollution from motor vehicle engines every minute or so. Inadvertently captured some freight train-bys which might make for the best recordings from this excursion.</dd>
+		</dl>
+	</div>
 </div>
