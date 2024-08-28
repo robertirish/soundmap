@@ -45,43 +45,49 @@ figure {
 	}
 }
 
-// style report notes
-.report-notes {
-	padding: 30px;
-	margin-bottom: 30px;
-	background-color: $lightGreen;
-	border-radius: 3px;
+// report notes styles
+.report-notes-container {
+	// use container so anchor link includes top padding
+	margin-top: -15px;
+	padding-top: 30px;
 
-	h3 {
-		display: block;
-		padding-bottom: 5px;
-		border-bottom: 3px solid $paleGreen;
-	}
+	.report-notes {
+		margin-top: 0;
+		margin-bottom: 30px;
+		padding: 30px;
+		background-color: $lightGreen;
+		border-radius: 3px;
 
-	dt,
-	dd {
-		margin-top: 10px;
-	}
+		h3 {
+			display: block;
+			padding-bottom: 5px;
+			border-bottom: 3px solid $paleGreen;
+		}
 
-	dt {
-		font-weight: bold;
-		display: inline-block;
-	}
+		dt,
+		dd {
+			margin-top: 10px;
+		}
 
-	dd {
-		display: inline;
-		
-		&:after {
-	  		display: block;
-	  		content: '';
+		dt {
+			font-weight: bold;
+			display: inline-block;
+		}
+
+		dd {
+			display: inline;
+			
+			&:after {
+		  		display: block;
+		  		content: '';
+			}
 		}
 	}
 }
 
 // skip to report summary link styles
 h1 + .date {
-	display: inline-block;
-}
+	display: inline-block;}
 
 .date + .skip-to-notes::before {
 	display: inline-block;

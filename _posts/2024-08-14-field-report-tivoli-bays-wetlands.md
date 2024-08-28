@@ -14,22 +14,24 @@ Unfortunately I didn't capture a full nights audio as I had hoped, because I had
 
 Luckily for me Tivoli Bays is only a short distance away and I can go back to capture the ambience for a second time. Better to make this mistake now than at a location that is less easily accessible. Very frustrating nonetheless!
 
-<div id="report_notes" class="report-notes">
-	<h3>Report notes</h3>
-	<dl>
-		<dt>Date:</dt> 
-			<dd>2024-08-14</dd>
-		<dt>Time:</dt> 
-			<dd>20:30-22:30</dd>
-		<dt>Location:</dt> 
-			<dd>Tivoli Bays, river habitat (by the canoe landing), Tivoli, NY, USA</dd>
-		<dt>Recorder/settings:</dt> 
-			<dd>Sony PCM-M10, gain 6, limiter off</dd>
-		<dt>Sample rate/bit depth:</dt> 
-			<dd>96/24</dd>
-		<dt>Microphones:</dt> 
-			<dd>MicBooster Clippys (stereo pair), "tree ears" configuration</dd>
-		<dt class="details">Comments:</dt> 
-			<dd>Gain was set too hot and some clipping occurred, aim for -12dB peaks in future. Clear recording through the M10/Clippy combo, good stereo image. Not a lot of interesting wildlife at this time in this location—soundscape dominated by chorus of insects. Failed to install  memory card in M10 and only captured ~2 hours of audio on the 4GB of built-in memory.</dd>
-	</dl>
+<div id="report_notes" class="report-notes-container">
+	<div class="report-notes">
+		<h3>Report notes</h3>
+		<dl>
+			<dt>Date:</dt> 
+				<dd>2024-08-14</dd>
+			<dt>Time:</dt> 
+				<dd>20:30-22:30</dd>
+			<dt>Location:</dt> 
+				<dd>Tivoli Bays, river habitat (by the canoe landing), Tivoli, NY, USA</dd>
+			<dt>Recorder/settings:</dt> 
+				<dd>Sony PCM-M10, gain 6, limiter off</dd>
+			<dt>Sample rate/bit depth:</dt> 
+				<dd>96/24</dd>
+			<dt>Microphones:</dt> 
+				<dd>MicBooster Clippys (stereo pair), "tree ears" configuration</dd>
+			<dt class="details">Comments:</dt> 
+				<dd>Gain was set too hot and some clipping occurred, aim for -12dB peaks in future. Clear recording through the M10/Clippy combo, good stereo image. Not a lot of interesting wildlife at this time in this location—soundscape dominated by chorus of insects. Failed to install  memory card in M10 and only captured ~2 hours of audio on the 4GB of built-in memory.</dd>
+		</dl>
+	</div>
 </div>
