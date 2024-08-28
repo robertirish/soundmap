@@ -87,7 +87,8 @@ figure {
 
 // skip to report summary link styles
 h1 + .date {
-	display: inline-block;}
+	display: inline-block;
+}
 
 .date + .skip-to-notes::before {
 	display: inline-block;
