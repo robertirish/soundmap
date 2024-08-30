@@ -6,7 +6,7 @@
 lang: "en"
 
 # Name of your site (displayed in the header)
-title: Soundmap
+title: Sound Map
 
 # Short bio or description (displayed in the header)
 description: An archiving project by New York-based recordist Robert Irish
@@ -33,6 +33,9 @@ navigation_links:
   # - title: Blog
   #   url: /
   #
+  - title: Map
+    url: /map
+
   - title: About
     url: /about
 
@@ -109,6 +112,3 @@ exclude:
 # Robots are welcome
 include:
   - robots.txt
-
-# Excerpt separator
-excerpt_separator: <!--more-->
