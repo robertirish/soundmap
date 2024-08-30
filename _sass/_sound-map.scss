@@ -50,37 +50,37 @@ figure {
 	// use container so anchor link includes top padding
 	margin-top: -15px;
 	padding-top: 30px;
+}
 
-	.report-notes {
-		margin-top: 0;
-		margin-bottom: 30px;
-		padding: 30px;
-		background-color: $lightGreen;
-		border-radius: 3px;
+.report-notes {
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding: 30px;
+	background-color: $lightGreen;
+	border-radius: 3px;
 
-		h3 {
-			display: block;
-			padding-bottom: 5px;
-			border-bottom: 3px solid $paleGreen;
-		}
+	h3 {
+		display: block;
+		padding-bottom: 5px;
+		border-bottom: 3px solid $paleGreen;
+	}
 
-		dt,
-		dd {
-			margin-top: 10px;
-		}
+	dt,
+	dd {
+		margin-top: 10px;
+	}
 
-		dt {
-			font-weight: bold;
-			display: inline-block;
-		}
+	dt {
+		font-weight: bold;
+		display: inline-block;
+	}
 
-		dd {
-			display: inline;
-			
-			&:after {
-		  		display: block;
-		  		content: '';
-			}
+	dd {
+		display: inline;
+		
+		&:after {
+	  		display: block;
+	  		content: '';
 		}
 	}
 }
@@ -100,16 +100,35 @@ h1 + .date {
 	display: inline-block;
 }
 
-// ensure masthead & footer are on top
+// masthead & footer specific styling
 .wrapper-masthead,
 .wrapper-footer {
-	background-color: $white;
 	position: relative;
 	z-index: 500;
 }
 
+.masthead {
+	border-bottom-color: $lightGray;
+}
+
+.wrapper-footer {
+	background-color: transparent;
+	
+	.darkmode--activated.page-map & {
+		background-color: $black !important;
+	}
+}
+
 // map page
 .page-map {
+	.masthead {
+		border-bottom: none;
+	}
+
+	.wrapper-footer {
+		background-color: $white;
+	}
+
 	[role="main"].container {
 		margin-left: 0;
 		margin-right: 0;
