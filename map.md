@@ -16,11 +16,15 @@ permalink: /map
 <div id="display_hidden_markers"></div>
 
 <script type="text/javascript">
-	var map = L.map('map').setView([42.0587815,-73.9207478], 12);
+	var map = L.map('map', { attributionControl: false }).setView([42.0587815,-73.9207478], 12);
 	
 	L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 		maxZoom: 20
+	}).addTo(map);
+
+	L.control.attribution({
+	  position: 'bottomleft'
 	}).addTo(map);
 
 	var birdSvg = `<?xml version="1.0" encoding="UTF-8"?><svg enable-background="new 0 0 164 223.2" version="1.1" viewBox="0 0 164 223.2" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path fill="#55892e" d="m81.9 1.5c44.2-0.6 82.9 39 80.4 83.3-2.2 34.8-21.9 65.5-42 92.9-12 14.6-24.7 33.2-39.3 43.5-17.2-17.4-33-36.3-47-56.4-18.1-27.4-36.3-59.5-31.8-93.5 4.5-39.2 40.5-70 79.7-69.8z"/><path fill="#ffffff" d="m37.3 146.4c-1.4 0.8-2.1 0.5-2.1 0.5s-1.9-0.7-1.5-1.5c0.7-1.6 15.6-11.4 19.6-15.3s3.3-5.4 7.5-13.8c1.1-2.3 2.5-4.3 3.7-6.5 1.7-3.1 2.6-4 6.9-2.4 1.9 0.6 3.7-0.9 4.5-2.6-8.6-1.3-14-7.1-19.4-13.1-12.7-14.3-33.8-32.3-33.8-32.3s44 1.8 62.8 18.4c2.6 2.3 4.7 5.6 6.8 8.4 3.4-2.1-0.6-6.1-2.4-9.1 2.9-5.9 5-10.7 8.2-16.2 3-5.4 8.2-7.4 14-6.5 3.7 0.6 7.2 2.5 10.9 3.7 1.7 0.6 3.5 1.2 5.3 1.1 10.5-0.5 22 0.9 24.2 1.6 2.1 0.5 2.4 1.1 0.9 1.1s-8.8-0.7-22.3 2.7c-8.8 2.3-8.5 3-10.4 9.1-2 6.2-4 12.5-5.5 18.8-4.8 21-18.3 32.8-38.6 36.5-12.4 2.2-13.8 0.6-21.5 7.3-6.7 7.1-7.9 8.8-9.5 9.7-1 0.6-2.2 0-2.7-0.3-0.3-0.2-1.7 0.8-2 1-0.9 0.4-3.5 0.5-3.6-0.3z"/></svg>`;
