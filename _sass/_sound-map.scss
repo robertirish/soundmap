@@ -10,7 +10,11 @@ html {
 
 // fix dark mode button so it doesn't get hidden behind images
 .darkmode-toggle {
-	z-index: 1000;
+	z-index: 10000;
+}
+
+.site-info .site-description {
+	font-size: 14px !important;
 }
 
 [role="main"] h1 {
@@ -104,33 +108,18 @@ h1 + .date {
 	display: inline-block;
 }
 
-// masthead & footer specific styling
-.wrapper-masthead,
-.wrapper-footer {
-	position: relative;
-	z-index: 500;
-}
-
-.masthead {
-	border-bottom-color: $lightGray;
-}
+// .masthead {
+// 	border-bottom-color: $lightGray;
+// }
 
 .wrapper-footer {
-	background-color: transparent;
-	
-	.darkmode--activated.page-map & {
-		background-color: $black !important;
-	}
+	// background-color: $lightGray;
 }
 
 // map page
 .page-map {
 	.masthead {
 		border-bottom: none;
-	}
-
-	.wrapper-footer {
-		background-color: $white;
 	}
 
 	[role="main"].container {
@@ -163,11 +152,11 @@ h1 + .date {
 
 	.wrapper-footer {
 		margin-top: 0;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		z-index: 500;
+		// position: absolute;
+		// bottom: 0;
+		// left: 0;
+		// width: 100%;
+		// // z-index: 500;
 	}
 }
 
