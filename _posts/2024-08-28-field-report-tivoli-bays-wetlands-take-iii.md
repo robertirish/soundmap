@@ -12,7 +12,7 @@ I was able to set up this rig much more quickly as I can control the F3 recorder
 
 So again, I’ve captured a couple of nice (rainy) train-bys, but not the clear recording of the wetlands wildlife I was after. For now I think I’ll move on and try some different locations to see what kind of results I get, and to see if I encounter the same problems elsewhere.
 
-<div id="report_notes" class="report_notes_container">
+<div id="report_notes" class="report-notes-container">
 	<div class="report-notes">
 		<h3>Report notes</h3>
 		<dl>
