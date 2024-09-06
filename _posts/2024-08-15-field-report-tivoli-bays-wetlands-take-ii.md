@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Field report—Tivoli Bays wetlands, take II
-categories: [field report]
+categories: [field reports]
 ---
 
 A couple of days ago I went back to the Tivoli Bays wetlands to try and capture the night ambience there after my first attempt didn’t go as planned. <!--more-->I took the same compact drop rig (Sony M10, MicBooster Clippys with wind protection) and set up a stereo array, securing one microphone to either side of a thick walkway post.

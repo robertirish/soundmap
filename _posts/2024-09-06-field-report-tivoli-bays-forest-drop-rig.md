@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Field report—Tivoli Bays forest drop rig
-categories: [field report]
+categories: [field reports]
 ---
 
 <div id="report_notes" class="report-notes-container">

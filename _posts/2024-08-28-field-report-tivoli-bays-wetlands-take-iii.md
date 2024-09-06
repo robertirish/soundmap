@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Field report—Tivoli Bays wetlands... take III!
-categories: [field report]
+categories: [field reports]
 ---
 
 I decided to make a third attempt to capture the ambience of the Tivoli Bays wetlands. <!--more-->I learned from my first two tries that locating the microphones out in the open, close to the riverbank, allowed noise from trains and motor vehicle engines to reach them over a long distance. With that in mind, I positioned them a little way back from the river in the surrounding forest, with the hope that the trees and foliage would help isolate them from these unwanted sounds. It did help to some degree, particularly in the higher frequency range, but there is still a low rumble present that I can only attribute to the nearby train line.

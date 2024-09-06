@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DIY Oball windshield for spaced microphone setups
-categories: [equipment]
+categories: [gear]
 ---
 
 Recently I've been spending some time researching wind protection solutions for my Sennheiser MKH8020 microphones. I use the excellent [Cinela ALBERT](https://www.cinela.fr/albert/ "Cinela ALBERT windshield") for ORTF, but wanted something more flexible that would allow me to record using spaced omnis and other mic arrays. <!--more-->Eventually I'd like to get a pair of [Cinela LEO windscreen balls](https://www.cinela.fr/leonard/ "Cinela LEO windscreen balls") but I needed something cheap for now, and after coming across [Sara Lana's DIY Oball windshield](https://saralana.xyz/windscreen "DIY windscreen with o-ball: A simple tutorial to do a windscreen for your microphone (⌀ 20mm), step by step") I decided to try making my own.
