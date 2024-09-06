@@ -12,7 +12,7 @@ categories: [field report, tivoli bays, canada geese]
 			<dt>Date:</dt> 
 				<dd>2024-09-02</dd>
 			<dt>Time:</dt> 
-				<dd>2:30 p.m.-10:30a.m.</dd>
+				<dd>2:30 p.m. to 10:30 a.m.</dd>
 			<dt>Location:</dt> 
 				<dd>Tivoli Bays forest</dd>
 			<dt>Recorder/settings:</dt> 
