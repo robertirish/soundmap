@@ -6,7 +6,7 @@
 lang: "en"
 
 # Name of your site (displayed in the header)
-title: Sound Map
+title: sound-map.org
 
 # Short bio or description (displayed in the header)
 description: An archive project by New York-based recordist Robert Irish
@@ -30,9 +30,9 @@ baseurl: ""
 
 # Navigation menu
 navigation_links:
-  # - title: Blog
-  #   url: /
-  #
+  - title: Blog
+    url: /
+  
   - title: Map
     url: /map
 
