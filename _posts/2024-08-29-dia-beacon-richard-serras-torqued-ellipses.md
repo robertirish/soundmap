@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dia Beacon and Richard Serra’s Torqued Ellipses
-categories: [gallery, museum, art, Richard Serra, Dia, Beacon, New York]
+categories: [field report]
 ---
 
 A couple of weeks ago I drove my family an hour south to Beacon, NY. We planned to visit a [great toy store](https://www.erikabarratt.com/brickandmortar), see some friends who live there, and to visit the [Dia Art Foundation](https://www.diaart.org/visit/visit-our-locations-sites/dia-beacon-beacon-united-states).<!--more-->

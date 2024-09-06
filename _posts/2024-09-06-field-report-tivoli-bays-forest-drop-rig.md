@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Field report—Tivoli Bays forest drop rig
-categories: [field report, tivoli bays, canada geese]
+categories: [field report]
 ---
 
 <div id="report_notes" class="report-notes-container">

@@ -14,7 +14,7 @@ html {
 }
 
 .site-info .site-description {
-	font-size: 14px !important;
+	font-size: 16px !important;
 }
 
 [role="main"] h1 {
@@ -108,15 +108,45 @@ h1 + .date {
 	display: inline-block;
 }
 
-// .masthead {
-// 	border-bottom-color: $lightGray;
-// }
-
-.wrapper-footer {
-	// background-color: $lightGray;
+@media screen and (max-width: 640px) {
+	.post {
+		.date,
+		.skip-to-notes,
+		.post-categories,
+		.share-post,
+		.related-posts *,
+		.post-nav * {
+			font-size: 14px;
+		}
+	}
 }
 
-// map page
+.page- .report-notes-container {
+	position: relative;
+
+	.report-notes {
+		max-height: 260px;
+		overflow: hidden;
+		margin-bottom: 25px;
+
+	&::before {
+			position: absolute;
+			content: "";
+			z-index: 9999;
+			display: block;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 60%;
+			background-image: linear-gradient(to bottom, rgba(221, 238, 215, 0), rgba(221, 238, 215, 1));
+		}
+	}
+}
+
+/* -------------------------------------------------------------------------------
+ * map
+ * -------------------------------------------------------------------------------*/
+
 .page-map {
 	.masthead {
 		border-bottom: none;
@@ -167,7 +197,7 @@ h1 + .date {
 	top: 0;
 	right: 0;
 	z-index: 1000;
-	font-size: 0.75rem;
+	font-size: 12px;
 	text-align: right;
 	opacity: 0;
 	white-space: nowrap;
@@ -186,37 +216,24 @@ h1 + .date {
 	}
 }
 
-@media screen and (max-width: 640px) {
-	.post {
-		.date,
-		.skip-to-notes,
-		.post-categories,
-		.share-post,
-		.related-posts *,
-		.post-nav * {
-			font-size: 1rem;
-		}
+.leaflet-popup-content {
+	width: 300px !important;
+
+	> *:first-child {
+		margin-top: 0;
 	}
-}
 
-.page- .report-notes-container {
-	position: relative;
+	> *:last-child {
+		margin-top: 0;
+	}
 
-	.report-notes {
-		max-height: 260px;
-		overflow: hidden;
-		margin-bottom: 25px;
+	h3 {
+		font-size: 16px !important;
+	}
 
-	&::before {
-			position: absolute;
-			content: "";
-			z-index: 9999;
-			display: block;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			height: 60%;
-			background-image: linear-gradient(to bottom, rgba(221, 238, 215, 0), rgba(221, 238, 215, 1));
-		}
+	p {
+		font-size: 14px !important;
+		margin-bottom: 15px !important;
+		margin-top: 0 !important;
 	}
 }
