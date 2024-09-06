@@ -12,7 +12,7 @@ My solution is based on the design by [Sara Lana](https://saralana.xyz/ "The web
 
 {% include image.html url="/assets/image/2024-09-05-diy-oball-windshield-4.jpg" caption="Sennheiser MKH8040 with the DIY Oball windshield attached." %}
 
-I then cut the toes off a pair of tights which I then stretched over the assemblies, leaving them a little long so that an elastic band can be used to secure the material at the base of the microphones. This should provide some transparent protection from light wind. For more extreme conditions I can add a pair of [Rycote Windjammers](https://www.bhphotovideo.com/c/product/322367-REG/Rycote_021801_Windjammer_for_Baby_Ball.html "Rycote BBG Windjammer at B&H Photo Video") I bought secondhand from B&H some time ago and haven't had a use for until now.
+Next I cut the toes off a pair of tights which I stretched over the assemblies, leaving them a little long so that an elastic band can be used to secure the material at the base of the microphones. This should provide some transparent protection from light wind. For more extreme conditions I can add a pair of [Rycote Windjammers](https://www.bhphotovideo.com/c/product/322367-REG/Rycote_021801_Windjammer_for_Baby_Ball.html "Rycote BBG Windjammer at B&H Photo Video") I bought secondhand from B&H some time ago and haven't had a use for until now.
 
 {% include image.html url="/assets/image/2024-09-05-diy-oball-windshield-3.jpg" caption="Opaque tights stretched over the assembly provide protection against light winds without excessive colouration of the sound." %}
 
@@ -28,5 +28,3 @@ If you want to try making your own, here is a list with links to the materials I
 - [Rubber grommets with 7/8" inner diameter](https://www.amazon.com/dp/B07Q7YS8TS?ref=ppx_yo2ov_dt_b_fed_asin_title 'Rubber grommets with 7/8" inner diameter, pack of 4 on Amazon') - $10 for a pack of 4
 - [Microphone shockmount rubber sleeves](https://www.amazon.com/dp/B0BMXCKZHG?ref=ppx_yo2ov_dt_b_fed_asin_title "Microphone shockmount rubber sleeves, pack of 4 on Amazon") - $10 for a pack of 4
 - [Hanes women's opaque tights (I used size medium)](https://www.amazon.com/dp/B07DLM2G6G?ref=ppx_yo2ov_dt_b_fed_asin_title "Hanes women's opaque tights on Amazon") - $10
-
-For those wondering, I have no affiliation with any of the products mentioned here, and don't benefit in any way if you decide to purchase them using these links. They are here for the purpose of convenience only.
