@@ -12,4 +12,4 @@ All of the equipment and techniques I use to capture audio I have read about on 
 
 The map portion of this site was inspired by Colin Hunter's [World Sounds](https://world-sounds.org). It is based on the excellent [Leaflet JS](https://leafletjs.com/) by Volodymyr Agafonkin.
 
-sound-map.org is built on [Jekyll](https://jekyllrb.com/), compiled by and hosted on [GitHub](https://github.com). I use a modified version of the [Forever Jekyll](https://github.com/forever-jekyll/forever-jekyll) theme.
+sound-map.org is built on [Jekyll](https://jekyllrb.com/) and hosted on [GitHub](https://github.com). It uses a modified version of the [Forever Jekyll](https://github.com/forever-jekyll/forever-jekyll) theme.
