@@ -73,15 +73,14 @@ permalink: /map
 	});
 
 	// tivoli bays wetlands
-	markers.addLayer(L.marker([42.03907, -73.915076], {icon: museum}).bindPopup(`
-		<dl>
-			<dt>Recorder/settings:</dt>
-				<dd>Sony PCM-M10, gain 4.5, limiter on</dd>
-		</dl>
+	markers.addLayer(L.marker([42.03907, -73.915076], {icon: bird}).bindPopup(`
+
 	`));
 
 	// kaatsbaan culture park pond
-	markers.addLayer(L.marker([42.0570125,-73.9178896], {icon: bird}).bindPopup('<div class="report-notes">Field report notes to go here</div>'));
+	markers.addLayer(L.marker([42.0570125,-73.9178896], {icon: bird}).bindPopup(`
+		{% include recording.html title="Barred owl duet - Tivoli, NY" description="<p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Recorded August 26, 2024, 8:30 p.m.</p><p>Zoom F3 + DPA 4060</p>" trackid="1910810306" %}
+	`));
 
 	map.addLayer(markers);
 
