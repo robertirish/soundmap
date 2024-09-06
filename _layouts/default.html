@@ -87,24 +87,7 @@
       </div>
     </div>
 
-    <script type="text/javascript">
-      // https://alexmansfield.com/javascript/preventing-widows-orphans-with-javascript/
-      var nbspSelectors = ['h2','h3','h4','h5','h6','p','blockquote','dd']; //
-
-      var nbspWordMin = 2; // only stop widows on lines with X words or more
-
-      nbspSelectors.forEach(function(selector) {
-        var nbspElements = document.querySelectorAll(selector);
-        nbspElements.forEach(function(element) {
-          var wordCount = (element.innerHTML.split(" ").length);
-          if (wordCount >= nbspWordMin ) {
-            element.innerHTML = element.innerHTML.replace(/ ([^ ]*)$/,'&nbsp;$1');
-          }
-        });
-      });
-    </script>
-    
-    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <script defer src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
     <script>
       const player = new Plyr("#player", { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1, playsinline: 1 , enablejsapi: 1, autoplay: 0, focused: true, global: false });
       window.player = player;
@@ -119,11 +102,11 @@
       });
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({startOnLoad:true});</script>
 
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
             onload="renderMathInElement(document.body,{
                     delimiters: [
                     { left: '$$',  right: '$$',  display: true  },
@@ -145,6 +128,5 @@
       const darkmode = new Darkmode(options);
             darkmode.showWidget();
     </script>
-
   </body>
 </html>
