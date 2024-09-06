@@ -17,7 +17,7 @@ title: Posts by Category
     {% for post in site.categories[category_name] %}
     <article class="archive-item">
       <ul>
-	<li><h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4></li>
+	<li><h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4></li>
       </ul>
     </article>
     {% endfor %}
