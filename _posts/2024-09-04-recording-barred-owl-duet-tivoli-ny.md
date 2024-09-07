@@ -4,7 +4,7 @@ title: Recording—barred owl duet, Tivoli, NY
 categories: [recordings]
 ---
 
-[View on the map](/map/#barred-owl-duet-tivoli-ny)
+[View on the map](/map#barred-owl-duet-tivoli-ny)
 
 Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.
 
