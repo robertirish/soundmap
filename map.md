@@ -17,7 +17,7 @@ permalink: /map
 
 <script type="text/javascript">
 	var map = L.map('map', { attributionControl: false }).setView([42.0587815,-73.9207478], 12);
-	
+
 	L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 		maxZoom: 20
@@ -67,24 +67,48 @@ permalink: /map
 		popupAnchor: [0, 0]
 	});
 
+
+	// add markers and cluster
 	var markers = L.markerClusterGroup({
 		spiderfyOnMaxZoom: false,
 		showCoverageOnHover: false
 	});
 
-	// tivoli bays wetlands
-	markers.addLayer(L.marker([42.03907, -73.915076], {icon: bird}).bindPopup(`
+	var data = [
+	    {
+	      name: "Tivoli Bays wetlands",
+	      latLng: [42.03907, -73.915076],
+	      id: 'tivoli-bays-wetlands',
+	      icon: bird,
+	      content: '<p>Example content</p>'
+	    },
+	    {
+	      name: 'Barred owl duet - Tivoli, NY',
+	      latLng: [42.0570125,-73.9178896],
+	      id: 'barred-owl-duet-tivoli-ny',
+	      icon: bird,
+	      content: '<h3>Barred owl duet - Tivoli, NY</h3><p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Recorded August 26, 2024, 8:30 p.m.</p><p>Zoom F3 + DPA 4060</p><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1910810306&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>'
+	    }
+	];
 
-	`));
+	var locs = {};
 
-	// kaatsbaan culture park pond
-	markers.addLayer(L.marker([42.0570125,-73.9178896], {icon: bird}).bindPopup(`
-		{% include recording.html title="Barred owl duet - Tivoli, NY" description="<p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Recorded August 26, 2024, 8:30 p.m.</p><p>Zoom F3 + DPA 4060</p>" trackid="1910810306" %}
-	`));
+	for (var i = 0; i < data.length; i++) {
+	  var loc = data[i];
+
+	  markers.addLayer(L.marker(loc.latLng, {title: loc.title, icon: loc.icon}).bindPopup(loc.content)).layerID = loc.id;
+
+
+		markers.eachLayer(function(layer) {
+			if (layer.layerID == null) {
+				layer.layerID = loc.id;
+			}
+		});	
+	}
 
 	map.addLayer(markers);
 
-	// hidden markers
+	// add hidden markers
 	var hidden = L.divIcon({
 		className: 'marker-hidden',
 		html: '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#0000ff" /></svg>',
@@ -97,6 +121,7 @@ permalink: /map
 	L.marker([42.039349, -73.905931], {icon: hidden}).addTo(map).bindPopup('Mic position?');
 	L.marker([42.037182, -73.905587], {icon: hidden}).addTo(map).bindPopup('Mic position?');
 
+	// display hidden markers
 	var triggerElement = document.getElementById("display_hidden_markers");
 
 	triggerElement.addEventListener('click', function (e) {
@@ -119,4 +144,35 @@ permalink: /map
 	}
 
 	map.on('click', getCoordinates);
+
+	// allow for linking to specific markers
+	window.addEventListener('load', function () {
+		if (window.location.hash) {
+			goToMarker();
+		}
+	});
+
+	function goToMarker(){
+		var hash = window.location.hash;
+	  	
+	  	if (hash.indexOf('#') === 0) {
+			hash = hash.substr(1);
+		}
+
+		var args = hash.split("/");
+		
+		if (args.length == 1) {
+			var hashID = args[0];
+
+			markers.eachLayer(function(layer) {
+		    	if (layer.layerID == hashID) {
+					map.setView(layer.getLatLng(), 16);
+
+					setTimeout(() => {
+						layer.openPopup();
+					}, 500);
+		    	}
+			});
+		}
+	}
 </script>
