@@ -1,0 +1,29 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.03907, -73.915076]
+    },
+    "properties": {
+      "name": "Tivoli Bays wetlands",
+      "id": "Tivoli Bays wetlands",
+      "icon": "bird",
+      "description": "<h3>Field report—Tivoli Bays wetlands</h3>"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.0570125,-73.9178896]
+    },
+    "properties": {
+      "name": "Barred owl duet - Tivoli, NY",
+      "id": "barred-owl-duet-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Barred owl duet - Tivoli, NY</h3><p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Recorded August 26, 2024, 8:30 p.m.</p><p>Zoom F3 + DPA 4060</p>",
+      "trackId": "1910810306"
+    }
+  }
+]

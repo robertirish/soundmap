@@ -74,39 +74,37 @@ permalink: /map
 		showCoverageOnHover: false
 	});
 
-	var data = [
-	    {
-	      name: "Tivoli Bays wetlands",
-	      latLng: [42.03907, -73.915076],
-	      id: 'tivoli-bays-wetlands',
-	      icon: bird,
-	      content: '<p>Example content</p>'
-	    },
-	    {
-	      name: 'Barred owl duet - Tivoli, NY',
-	      latLng: [42.0570125,-73.9178896],
-	      id: 'barred-owl-duet-tivoli-ny',
-	      icon: bird,
-	      content: '<h3>Barred owl duet - Tivoli, NY</h3><p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Recorded August 26, 2024, 8:30 p.m.</p><p>Zoom F3 + DPA 4060</p><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1910810306&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>'
-	    }
-	];
+    var xmlhttp = new XMLHttpRequest();
 
-	var locs = {};
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+            if (xmlhttp.status == 200) {
+                var data = JSON.parse(xmlhttp.responseText);
+				var locs = {};
 
-	for (var i = 0; i < data.length; i++) {
-	  var loc = data[i];
+				for (var i = 0; i < data.length; i++) {
+					var loc = data[i];
 
-	  markers.addLayer(L.marker(loc.latLng, {title: loc.title, icon: loc.icon}).bindPopup(loc.content)).layerID = loc.id;
+					if (loc.properties.trackId) {
+						markers.addLayer(L.marker(loc.geometry.coordinates, {title: loc.properties.name, icon: window[loc.properties.icon]}).bindPopup(loc.properties.description + '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + loc.properties.trackId + '&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>"'));
+					} else {
+						markers.addLayer(L.marker(loc.geometry.coordinates, {title: loc.properties.name, icon: window[loc.properties.icon]}).bindPopup(loc.properties.description));
+					}
 
+					markers.eachLayer(function(layer) {
+						if (layer.layerId == null) {
+							layer.layerId = loc.properties.id;
+						}
+					});
+				}
 
-		markers.eachLayer(function(layer) {
-			if (layer.layerID == null) {
-				layer.layerID = loc.id;
-			}
-		});	
-	}
+				map.addLayer(markers);
+           }
+        }
+    };
 
-	map.addLayer(markers);
+    xmlhttp.open("GET", "/assets/data/markers.geojson", true);
+    xmlhttp.send();
 
 	// add hidden markers
 	var hidden = L.divIcon({
@@ -165,7 +163,7 @@ permalink: /map
 			var hashID = args[0];
 
 			markers.eachLayer(function(layer) {
-		    	if (layer.layerID == hashID) {
+		    	if (layer.layerId == hashID) {
 					map.setView(layer.getLatLng(), 16);
 
 					setTimeout(() => {
