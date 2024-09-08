@@ -8,7 +8,7 @@ sound-map.org is a project by New York-based recordist Robert Irish (me), loggin
 
 ### Acknowledgements
 
-All of the equipment and techniques I use to capture audio I have read about on sound blogs all over the web, but the sites I find myself visiting regularly are [Mindful Audio](https://mindful-audio.com), [The View Up Here](https://tombenedict.wordpress.com/) and [Creative Field Recording](https://www.creativefieldrecording.com/).
+All of the equipment and techniques I use to capture audio I have read about on sound blogs all over the web, but the sites I find myself visiting regularly are [Mindful Audio](https://mindful-audio.com), [The View Up Here](https://tombenedict.wordpress.com/), [Wav.Report](https://wavreport.com/) and [Creative Field Recording](https://www.creativefieldrecording.com/).
 
 The map portion of this site was inspired by Colin Hunter's [World Sounds](https://world-sounds.org). It is based on the excellent [Leaflet JS](https://leafletjs.com/) by Volodymyr Agafonkin.
 
