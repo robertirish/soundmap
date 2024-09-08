@@ -4,4 +4,6 @@ title: Welcome to sound-map.org!
 categories: [general]
 ---
 
-Hello, and welcome to sound-map.org! This is a project by New York-based recordist Robert Irish (me), logging my experiences capturing soundscapes around the world. The main purpose of making these recordings is to document the unique environments I come across, and to archive them in my library—they might end up being used in music or other projects in future, but for now I am setting out to capture them without any further goal in mind. <!--more-->
+Welcome to sound-map.org!
+
+sound-map.org is a project by New York-based recordist Robert Irish (me), logging my experiences capturing soundscapes around the world, with a focus on natural environments and the ambience of gallery and museum interiors. The purpose of making these recordings is to document and archive—they might end up being used in music or other projects down the track but for now I'm setting out to capture them without any further goal in mind. <!--more-->

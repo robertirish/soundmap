@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Field report—Tivoli Bays wetlands... take III!
+title: Field report—Tivoli Bays wetlands... take III
 categories: [field reports]
 ---
 
-I decided to make a third attempt to capture the ambience of the Tivoli Bays wetlands. <!--more-->I learned from my first two tries that locating the microphones out in the open, close to the riverbank, allowed noise from trains and motor vehicle engines to reach them over a long distance. With that in mind, I positioned them a little way back from the river in the surrounding forest, with the hope that the trees and foliage would help isolate them from these unwanted sounds. It did help to some degree, particularly in the higher frequency range, but there is still a low rumble present that I can only attribute to the nearby train line.
+I decided to make a third attempt to capture the ambience of the Tivoli Bays wetlands. <!--more-->On my past attempts to record this habitat, locating the microphones out in the open allowed noise from cars, trucks and trains to reach them over a long distance, so I positioned them a little way back from the riverbank in the surrounding forest in the hope that the trees and foliage would help isolate them. It worked somewhat, particularly in the higher frequency range, but there is still a low rumble from the nearby train line.
 
-The drop rig I used on this session was a Zoom F3 recorder coupled with a stereo pair of DPA 4060 microphones. I wanted to try this setup for a couple of reasons. Firstly, to see if the low-end noise I had captured in my previous sessions was coming from the microphones (it wasn’t); and secondly, because it was raining when I set up the rig and the DPAs have better resistance to moisture than the EM272 electret capsules. I attached the mics to small branches underneath a fallen tree to provide them with some protection from the rain. They did get quite wet (there was a heavy downpour not long after I left), but continued to capture audio without a hitch—a nice surprise after having the Clippys drop out intermittently.
+For this drop rig I used a Zoom F3 recorder coupled with a stereo pair of DPA 4060 microphones. I wanted to try this setup to see if the low-end noise I had captured in my previous sessions was coming from the microphones (it wasn’t). Also, it was raining when I went out and the DPAs have better resistance to moisture than the EM272 electret capsules used in the Clippys which struggled in a high-humidity environment. I attached the mics to small branches underneath a fallen tree to provide them with some shelter—they did get quite wet (there was a heavy downpour not long after I left the site), but continued to capture audio without a hitch.
 
-I was able to set up this rig much more quickly as I can control the F3 recorder using the Zoom smartphone app. This meant I could prepare my kit beforehand and all I needed to do on site was to choose a position for the mics—once they were in place, I could adjust levels and hit record without needing to remove the recorder from the bag. This is a big plus when working in the rain or in situations when pressed for time. The downside is that it doesn’t allow for monitoring of the signal coming in, as the F3 doesn’t transmit audio through bluetooth. This could be worked around using a small wireless transmitter attached to the line out of the recorder, but will need some experimenting with to find a setup that works reliably.
+I was able to set up this rig much more quickly as I can operate the Zoom recorder through the F3 Control iOS app. This meant I could prepare my kit beforehand and all I needed to do on site was to choose a position for the mics—once they were in place, I could adjust levels and hit record on my phone, without needing to remove the recorder from the dry bag. This is a big plus when working in the rain or in situations when pressed for time. The downside is that it doesn’t allow for monitoring of the signal coming in, as the F3 doesn’t transmit audio to the app through bluetooth. This could be worked around using a small wireless transmitter attached to the line out of the recorder, but will need some experimenting with to find a setup that works reliably.
 
-So again, I’ve captured a couple of nice (rainy) train-bys, but not the clear recording of the wetlands wildlife I was after. For now I think I’ll move on and try some different locations to see what kind of results I get, and to see if I encounter the same problems elsewhere.
+So still no luck capturing the Tivoli Bays wetlands. I was interested in this location as it is a [freshwater intertidal marsh](https://en.wikipedia.org/wiki/Tidal_marsh#Freshwater), globally recognised as a rare habitat, but I think I'll move on for now and try again when I have some more experience with recording in difficult environments.
 
 <div id="report_notes" class="report-notes-container">
 	<div class="report-notes">
@@ -27,9 +27,9 @@ So again, I’ve captured a couple of nice (rainy) train-bys, but not the clear 
 			<dt>Sample rate/bit depth:</dt> 
 				<dd>96/32</dd>
 			<dt>Microphones:</dt> 
-				<dd>DPA 4060s, spaced omni</dd>
-			<dt class="details">Comments:</dt> 
-				<dd></dd>
+				<dd>DPA 4060s, spaced omni setup</dd>
+			<dt class="details">Comments:</dt>
+				<dd>Low frequency rumble from nearby train line still present—not a result of Clippy mics or Sony M10. DPAs continued to capture audio in heavy downpour where the Clippys struggled with high humidity. Less interesting soundscape at this location than at the edge of the river, maybe less wildlife activity due to rain.</dd>
 		</dl>
 	</div>
 </div>

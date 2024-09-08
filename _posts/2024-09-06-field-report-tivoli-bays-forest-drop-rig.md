@@ -22,7 +22,7 @@ categories: [field reports]
 			<dt>Microphones:</dt> 
 				<dd>DPA 4060 stereo pair</dd>
 			<dt class="details">Comments:</dt> 
-				<dd>Very difficult to find drop rig next day! Remember to always record lat/lng coordinates. Captured good recording of Canada geese flying overhead. Still had issues with noise pollution, particularly trains, but decided to use recording anyway—perfect conditions might never arrive. Hunters were shooting in the morning when I went to find the rig, look up schedules and wear hi-vis vest.</dd>
+				<dd>Very difficult to find drop rig next day! Remember to always record lat/lng coordinates—I'll add this to future field reports. Captured good recording of Canada geese flying overhead. Still had issues with noise pollution, particularly trains, but decided to use recording anyway—perfect conditions might never arrive. Hunters were shooting in the morning when I went to find the rig, look up schedules and wear hi-vis vest.</dd>
 		</dl>
 	</div>
 </div>
