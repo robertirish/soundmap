@@ -17,10 +17,15 @@ title: Map
 <script type="text/javascript">
 	var map = L.map('map', { attributionControl: false }).setView([42.0587815,-73.9207478], 12);
 
-	L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
+	const lightMode = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 		maxZoom: 20
-	}).addTo(map);
+	});
+
+	const darkMode = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+		maxZoom: 20
+	});
 
 	L.control.attribution({
 	  position: 'bottomleft'
@@ -172,4 +177,34 @@ title: Map
 			});
 		}
 	}
+
+	if (document.body.classList.contains('darkmode--activated')) {
+		map.addLayer(darkMode);
+  } else {
+  	map.addLayer(lightMode);
+  }
+ 
+  const observer = new MutationObserver(mutations => {
+    mutations.forEach(record => {
+
+      if(record.type === 'attributes') {
+        const changedAttrName  = record.attributeName;
+        const newValue = record.target.getAttribute(changedAttrName);
+        
+        if (changedAttrName == 'class') {
+        	if (newValue.includes('darkmode--activated')) {
+        		map.addLayer(darkMode);
+        		map.removeLayer(lightMode);
+          } else {
+          	map.addLayer(lightMode);
+          	map.removeLayer(darkMode);
+          }
+      	}
+      }
+    });
+  });
+
+  observer.observe(document.body, {
+    attributes: true
+  });
 </script>
