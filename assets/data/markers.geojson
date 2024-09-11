@@ -1,15 +1,16 @@
 [
-  {
+  { 
     "type": "Feature",
     "geometry": {
       "type": "Point", 
-      "coordinates": [42.03907, -73.915076]
+      "coordinates": [42.034704, -73.905437]
     },
     "properties": {
-      "name": "Tivoli Bays wetlands",
-      "id": "tivoli-bays-wetlands",
+      "name": "Canada geese - Tivoli, NY",
+      "id": "2024-09-03-canada-geese-tivoli-ny",
       "icon": "bird",
-      "description": "<h3>Field report—Tivoli Bays wetlands</h3>"
+      "description": "<h3>Canada geese - Tivoli, NY</h3><p>Canada geese calling as they fly over Tivoli Bays Wildlife Management Area, Tivoli, NY.</p><p>Recorded September 3, 2024 at 6:20 a.m.</p><p>Zoom F3 + DPA 4060</p>",
+      "trackId": "1910225498"
     }
   },
   { 
@@ -20,10 +21,24 @@
     },
     "properties": {
       "name": "Barred owl duet - Tivoli, NY",
-      "id": "barred-owl-duet-tivoli-ny",
+      "id": "2024-08-26-barred-owl-duet-tivoli-ny",
       "icon": "bird",
       "description": "<h3>Barred owl duet - Tivoli, NY</h3><p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Recorded August 26, 2024, 8:30 p.m.</p><p>Zoom F3 + DPA 4060</p>",
       "trackId": "1910810306"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [41.5000753,-73.9851413]
+    },
+    "properties": {
+      "name": "Richard Serra, '2000' (2000) - Beacon, NY",
+      "id": "2024-08-10-richard-serra-2000-2000-beacon-ny",
+      "icon": "museum",
+      "description": "<h3>Richard Serra, 2000 (2000) - Beacon, NY</h3><p>The ambience inside Richard Serra's sculpture <em>2000</em> (2000) at the Dia Art Foundation, Beacon, NY.</p><p>Recorded August 10, 2024.</p><p>Sound Devices MixPre 6 + DPA 4060</p>",
+      "trackId": "1914867971"
     }
   }
 ]
