@@ -31,7 +31,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point", 
-      "coordinates": [41.5000753,-73.9851413]
+      "coordinates": [41.499538, -73.983012]
     },
     "properties": {
       "name": "Richard Serra, '2000' (2000) - Beacon, NY",
