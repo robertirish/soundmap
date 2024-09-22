@@ -1,4 +1,18 @@
 [
+    { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [40.725010, -73.995468]
+    },
+    "properties": {
+      "name": "Ambient music played by street performers in SoHo - New York, NY",
+      "id": "2023-09-22-ambient-music-played-by-street-performers-in-soho-new-york-ny",
+      "icon": "museum",
+      "description": "<h3>Ambient music played by street performers in SoHo - New York, NY</h3><p>Some beautiful music performed by two musicians on a street-corner in SoHo, until they were stopped by the NYPD.</p><p>Recorded September 22, 2023 at 12:15 p.m.</p><p>Sound Devices MixPre 6 II + EM172 Clippys</p>",
+      "trackId": "1921131314"
+    }
+  },
   { 
     "type": "Feature",
     "geometry": {
