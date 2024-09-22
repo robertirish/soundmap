@@ -1,5 +1,19 @@
 [
-    { 
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [41.921323, -73.951866]
+    },
+    "properties": {
+      "name": "Amtrack train arriving at the platform - Rhinecliff, NY",
+      "id": "2024-09-16-amtrack-train-arriving-at-platform-rhinecliff-ny",
+      "icon": "museum",
+      "description": "<h3>Amtrack train arriving at the platform - Rhinecliff, NY</h3><p>Recorded September 16, 2024 at 1:00 p.m.</p><p>Sony PCM-D100</p>",
+      "trackId": "1921561688"
+    }
+  },
+  { 
     "type": "Feature",
     "geometry": {
       "type": "Point", 
