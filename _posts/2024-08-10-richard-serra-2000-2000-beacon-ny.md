@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Richard Serra, '2000' (2000) - Beacon, NY
+date: 2024-09-11
 categories: [recordings]
 permalink: /#2024-08-10-richard-serra-2000-2000-beacon-ny
 ---

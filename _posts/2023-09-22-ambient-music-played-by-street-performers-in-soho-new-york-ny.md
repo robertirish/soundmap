@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ambient music played by street performers in SoHo - New York, NY
+date: 2024-09-21
 categories: [recordings]
 permalink: /#2023-09-22-ambient-music-played-by-street-performers-in-soho-new-york-ny
 ---
