@@ -281,13 +281,6 @@ h1 + .date {
 .leaflet-touch .leaflet-bar {
 	border: none !important;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
-
-	a {
-		span {
-			position: relative;
-			top: -2px;
-		}
-	}
 }
 
 .leaflet-ctrl-geocoder {
