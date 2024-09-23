@@ -284,6 +284,10 @@ h1 + .date {
 }
 
 .leaflet-ctrl-geocoder {
+	.darkmode--activated & {
+		filter: invert(100%);
+	}
+	
 	form.can-collapse.svelte-zh3kmv.svelte-zh3kmv {
 		min-width: 40px;
 		box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
@@ -296,6 +300,16 @@ h1 + .date {
 
 		svg {
 			display: none;
+		}
+	}
+
+	.clear-button-container {
+		button:hover,
+		button:focus,
+		button:active {
+			svg {
+				fill: $mahogany !important;
+			}
 		}
 	}
 
