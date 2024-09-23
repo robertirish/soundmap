@@ -194,13 +194,15 @@ h1 + .date {
 		width: 50px;
 		height: 50px;
 		position: absolute;
-		top: 0;
+		top: -50px;
 		right: 0;
 		z-index: 1000;
 		font-size: 12px;
 		text-align: right;
 		opacity: 0;
 		white-space: nowrap;
+		align-items: flex-end;
+    display: flex;
 
 		&.visible {
 			opacity: 1;
@@ -240,8 +242,6 @@ h1 + .date {
 
 	&.darkmode--activated {
 		.leaflet-control-zoom {
-			border: 1px solid darken($paleGray, 50%);
-
 			a {
 				background-color: darken($darkGray, 10%);
 				border-bottom-color: darken($paleGray, 50%);
@@ -274,6 +274,73 @@ h1 + .date {
 		.leaflet-marker-icon,
 		.leaflet-popup iframe {
 			filter: invert(100%) hue-rotate(180deg);
+		}
+	}
+}
+
+.leaflet-touch .leaflet-bar {
+	border: none !important;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+
+	a {
+		span {
+			position: relative;
+			top: -2px;
+		}
+	}
+}
+
+.leaflet-ctrl-geocoder {
+	form.can-collapse.svelte-zh3kmv.svelte-zh3kmv {
+		min-width: 40px;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+		border-radius: 2px !important;
+	}
+
+	.no-results {
+		display:  flex; 
+		align-items: center;
+
+		svg {
+			display: none;
+		}
+	}
+
+	.input-group.svelte-zh3kmv.svelte-zh3kmv {
+		gap: 12px !important;
+		padding-inline: 14px !important;
+	}
+
+	input.svelte-zh3kmv.svelte-zh3kmv {
+		min-height: 40px !important;
+	}
+
+	.input-group.svelte-zh3kmv.svelte-zh3kmv:focus-within {
+		outline: $paleGray solid 1px;
+		border-radius: 2px !important;
+	}
+
+	* { 
+		font-size: 14px !important;
+		font-family: $sans-font-family !important;
+	}
+
+	ul li {
+		&.selected {
+			background-color: $lightGray !important;
+
+			.primary {
+				color: $mahogany !important;
+			}
+		}
+
+		img {
+			display: none !important;
+
+			+ span {
+
+				padding-left: 10px !important;
+			}
 		}
 	}
 }
