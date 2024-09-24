@@ -15,11 +15,19 @@ html {
 
 .site-avatar {
 	width: auto !important;
+	height: 70px;
+	filter: none !important;
 
-	img {
-		max-height: 100% !important;
-		width: auto !important;
+	svg {
+		height: 100%;
+		width: auto;
+		fill: $black;
+		isolation: isolate;
 	}
+
+	.darkmode--activated & svg {
+		fill: $paleGray;
+  }
 }
 
 .site-info .site-description {
@@ -36,7 +44,7 @@ figcaption {
 	margin-top: -5px;
 	color: $gray;
 	opacity: .5;
-	transition: opacity 0.5s ease;
+	transition: opacity .5s ease;
 }
 
 figure {
@@ -273,6 +281,12 @@ h1 + .date {
 	}
 
 	&.darkmode--activated {
+		background-color: $black;
+
+		#loading {
+	  	filter: invert(100%);
+	  }
+		
 		.leaflet-control-zoom {
 			a {
 				background-color: $darkerGray;
@@ -311,13 +325,13 @@ h1 + .date {
 
 .leaflet-touch .leaflet-bar {
 	border: none !important;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1) !important;
 }
 
 .leaflet-ctrl-geocoder {
 	form.svelte-zh3kmv.svelte-zh3kmv {
 		min-width: 40px !important;
-		box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+		box-shadow: 0 2px 5px rgba(0,0,0,.1) !important;
 		border-radius: 2px !important;
 	}
 
