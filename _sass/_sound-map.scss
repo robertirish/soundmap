@@ -10,7 +10,9 @@ html {
 
 // fix dark mode button so it doesn't get hidden behind images
 .darkmode-toggle {
-	z-index: 10000;
+	z-index: 9998;
+}
+
 .site-avatar {
 	width: auto !important;
 
@@ -24,7 +26,8 @@ html {
 	font-size: 14px !important;
 }
 
-[role="main"] h1 {	line-height: 1.4;
+[role="main"] h1 {
+	line-height: 1.4;
 }
 
 // fix figcaption styling 
@@ -155,6 +158,34 @@ h1 + .date {
  * -------------------------------------------------------------------------------*/
 
 .page-map {
+	&.page-loading {
+		.wrapper-masthead,
+		[role="main"],
+		.wrapper-footer {
+			opacity: 0 !important;
+		}
+	}
+
+	#loading {
+	  display: flex;
+	  position: fixed;
+	  z-index: 100;
+	  width: 100%;
+	  height: 100%;
+	  z-index: 9999;
+	  background-color: $white;
+	  background-image: url('/assets/image/sound-map-org-logo-640-640.gif');
+	  background-size: 240px 240px;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+
+	  &.loaded {
+	  	opacity: 0;
+	  	pointer-events: none;
+	  	transition: opacity $time ease;
+	  }
+	}
+
 	.masthead {
 		border-bottom: none;
 	}
@@ -272,9 +303,8 @@ h1 + .date {
 			}
 		}
 
-		.leaflet-marker-icon,
-		.leaflet-popup iframe {
-			filter: invert(100%) hue-rotate(180deg);
+		.leaflet-marker-icon {
+			filter: invert(100%) hue-rotate(270deg) brightness(150%);
 		}
 	}
 }

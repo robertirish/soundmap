@@ -87,6 +87,8 @@
       </div>
     </div>
 
+    <div id="loading"></div>
+
     <script defer src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
     <script>
       const player = new Plyr("#player", { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1, playsinline: 1 , enablejsapi: 1, autoplay: 0, focused: true, global: false });
@@ -114,6 +116,25 @@
                     { left: '\\[', right: '\\]', display: true  },
                     { left: '\\(', right: '\\)', display: false }
                     ]});">
+    </script>
+
+    <script>
+    const wait = (delay = 0) =>
+      new Promise(resolve => setTimeout(resolve, delay));
+
+    const setVisible = (elementOrSelector, visible) => 
+      (typeof elementOrSelector === 'string'
+        ? document.querySelector(elementOrSelector)
+        : elementOrSelector
+      ).style.display = visible ? 'block' : 'none';
+
+    document.body.classList.add('page-loading');
+
+    document.addEventListener('DOMContentLoaded', () =>
+      wait(2000).then(() => {
+        document.getElementById('loading').classList.add('loaded');
+        document.body.classList.remove('page-loading');
+      }));
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
