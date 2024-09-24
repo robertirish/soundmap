@@ -11,14 +11,20 @@ html {
 // fix dark mode button so it doesn't get hidden behind images
 .darkmode-toggle {
 	z-index: 10000;
+.site-avatar {
+	width: auto !important;
+
+	img {
+		max-height: 100% !important;
+		width: auto !important;
+	}
 }
 
 .site-info .site-description {
 	font-size: 14px !important;
 }
 
-[role="main"] h1 {
-	line-height: 1.4;
+[role="main"] h1 {	line-height: 1.4;
 }
 
 // fix figcaption styling 
