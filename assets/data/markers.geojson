@@ -68,5 +68,47 @@
       "description": "<h3>Richard Serra, <em>2000</em> (2000) - Beacon, NY</h3><p>The ambience inside Richard Serra's sculpture <em>2000</em> (2000) at the Dia Art Foundation, Beacon, NY.</p><p>Recorded August 10, 2024.</p><p>Sound Devices MixPre 6 + DPA 4060</p>",
       "trackId": "1914867971"
     }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.070036, -73.911976]
+    },
+    "properties": {
+      "name": "Morning chorus on Sengstack Ln - Tivoli, NY",
+      "id": "2025-05-02-morning-chorus-sengstack-ln-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Morning chorus on Sengstack Ln — Tivoli, NY</h3><p>Pileated Woodpeckers, Mourning Doves, Northern Cardinals, Grackles, Red-wing Blackbirds, American Robins, and many more species make up the morning chorus during the spring in the northeast.</p><p>Recorded May 2, 2025.</p><p>Sound Devices MixPre 6 + MKH 8040 pair</p>",
+      "trackId": "2090089926"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.068127, -73.903924]
+    },
+    "properties": {
+      "name": "Small waterfall on Stonybrook Rd, Tivoli, NY",
+      "id": "2025-05-02-small-waterfall-stonybrook-rd-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Small waterfall on Stonybrook Rd, Tivoli, NY</h3><p>Recorded May 2, 2025.</p><p>Sound Devices MixPre 6 + MKH 8040 pair</p>",
+      "trackId": "2090090781"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.057646, -73.908640]
+    },
+    "properties": {
+      "name": "Steady rain on Washburn Ave, Tivoli, NY",
+      "id": "2025-05-04-steady-rain-washburn-ave-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Steady rain on Washburn Ave, Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sound Devices MixPre 6 II + MKH 8020 pair</p>",
+      "trackId": "2090098962"
+    }
   }
 ]
