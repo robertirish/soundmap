@@ -110,5 +110,47 @@
       "description": "<h3>Steady rain on Washburn Ave, Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sound Devices MixPre 6 II + MKH 8020 pair</p>",
       "trackId": "2090098962"
     }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.058634, -73.916979]
+    },
+    "properties": {
+      "name": "Gray Catbird song - Tivoli, NY",
+      "id": "2025-05-05-gray-catbird-song-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Gray Catbird song - Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
+      "trackId": "2090807259"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.054622, -73.915023]
+    },
+    "properties": {
+      "name": "Running stream with morning birds, Kaatsbaan Cultural Park, Tivoli, NY",
+      "id": "2025-05-05-running-stream-morning-birds-kaatsbaan-cultural-park-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Running stream with morning birds, Kaatsbaan Cultural Park, Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
+      "trackId": "2090807514"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.058055, -73.916748]
+    },
+    "properties": {
+      "name": "Running stream in Kaatsbaan Cultural Park, Tivoli, NY",
+      "id": "2025-05-05-running-stream-kaatsbaan-cultural-park-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Running stream in Kaatsbaan Cultural Park, Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
+      "trackId": "2090807976"
+    }
   }
 ]
