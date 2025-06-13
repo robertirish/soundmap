@@ -152,5 +152,145 @@
       "description": "<h3>Running stream in Kaatsbaan Cultural Park, Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
       "trackId": "2090807976"
     }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.042585, -73.909315]
+    },
+    "properties": {
+      "name": "Red-bellied Woodpecker calls - Tivoli Bays, Tivoli, NY",
+      "id": "2025-06-11-red-bellied-woodpecker-tivoli-bays-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Red-bellied Woodpecker calls - Tivoli Bays, Tivoli, NY</h3><p>2025-06-11</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "trackId": "2112383868"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.040533, -73.910297]
+    },
+    "properties": {
+      "name": "Woodthrush calls - Tivoli Bays, Tivoli, NY",
+      "id": "2025-06-11-woodthrush-tivoli-bays-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Woodthrush calls - Tivoli Bays, Tivoli, NY</h3><p>2025-06-11</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "trackId": "2112383889"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.039841, -73.910498]
+    },
+    "properties": {
+      "name": "Scarlet Tanger calls - Tivoli Bays, Tivoli, NY",
+      "id": "2025-06-12-scarlet-tanger-tivoli-bays-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Scarlet Tanger calls - Tivoli Bays, Tivoli, NY</h3><p>2025-06-12</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "trackId": "2112383880"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.038603, -73.911054]
+    },
+    "properties": {
+      "name": "Red-bellied Woodpecker calling and drumming - Tivoli Bays, Tivoli, NY",
+      "id": "2025-06-12-red-bellied-woodpecker-tivoli-bays-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Red-bellied Woodpecker calling and drumming - Tivoli Bays, Tivoli, NY</h3><p>2025-06-12</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "trackId": "2112383883"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.070077, -73.912588]
+    },
+    "properties": {
+      "name": "Common Yellowthroat singing - Sengstack Ln, Tivoli, NY",
+      "id": "025-06-11-common-yellowthroat-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Common Yellowthroat singing - Sengstack Ln, Tivoli, NY</h3><p>2025-06-11</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "trackId": "2112383871"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.070027, -73.911700]
+    },
+    "properties": {
+      "name": "Orchard Oriole song - Sengstack Ln, Tivoli, NY",
+      "id": "2025-06-04-orchard-oriole-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Orchard Oriole song - Sengstack Ln, Tivoli, NY</h3><p>2025-06-04</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "trackId": "2112383874"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.068904, -73.907073]
+    },
+    "properties": {
+      "name": "Red-eyed Vireo singing - Sengstack Ln, Tivoli, NY",
+      "id": "2025-06-04-red-eyed-vireo-tivoliny",
+      "icon": "bird",
+      "description": "<h3>Red-eyed Vireo singing - Sengstack Ln, Tivoli, NY</h3><p>  2025-06-04</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "trackId": "2112383877"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.069883, -73.910458]
+    },
+    "properties": {
+      "name": "Eastern Kingbird calls - Sengstack Ln, Tivoli, NY",
+      "id": "2025-06-04-eastern-kingbird-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Eastern Kingbird calls - Sengstack Ln, Tivoli, NY</h3><p>2025-06-04</p><p>Parabolic dish w/ MKH8020</p>",
+      "trackId": "2112383895"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.070433, -73.912502]
+    },
+    "properties": {
+      "name": "Red-winged Blackbird calls - Sengstack Ln, Tivoli, NY",
+      "id": "2025-06-11-red-winged-blackbird-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Red-winged Blackbird calls - Sengstack Ln, Tivoli, NY</h3><p>2025-06-11</p><p>Parabolic dish w/ MKH8020</p>",
+      "trackId": "2112383892"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.070320, -73.914750]
+    },
+    "properties": {
+      "name": "American Robin singing - Sengstack Ln, Tivoli, NY",
+      "id": "2025-06-04-american-robin-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>American Robin singing - Sengstack Ln, Tivoli, NY</h3><p>2025-06-04</p><p>Parabolic dish w/ MKH8020</p>",
+      "trackId": "2112383886"
+    }
   }
 ]
