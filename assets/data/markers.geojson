@@ -292,5 +292,19 @@
       "description": "<h3>American Robin singing - Sengstack Ln, Tivoli, NY</h3><p>2025-06-04</p><p>Parabolic dish w/ MKH8020</p>",
       "trackId": "2112383886"
     }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.066936, -73.907652]
+    },
+    "properties": {
+      "name": "Northern Mockingbird imitates car alarms and local bird calls - North Rd, Tivoli, NY",
+      "id": "2025-06-18-northern-mockingbird-tivoli-ny",
+      "icon": "bird",
+      "description": "<h3>Northern Mockingbird imitates car alarms and local bird calls - North Rd, Tivoli, NY</h3><p>2025-06-18</p><p>DIY parabola with MKH8020 + Sound Devices MixPre 6 II</p>",
+      "trackId": "2115820401"
+    }
   }
 ]
