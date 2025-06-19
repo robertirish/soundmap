@@ -21,7 +21,7 @@ title: Map
 <div id="display_hidden_markers"></div>
 
 <script type="text/javascript">
-var map = L.map('map', { attributionControl: false }).setView([42.0587815,-73.9207478], 13);
+var map = L.map('map', { attributionControl: false }).setView([42.052343, -73.908634], 14);
 
 const lightMode = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -91,7 +91,10 @@ var leaf = L.divIcon({
 // add markers and cluster
 var markers = L.markerClusterGroup({
 	spiderfyOnMaxZoom: false,
-	showCoverageOnHover: false
+	showCoverageOnHover: false,
+	zoomToBoundsOnClick: true,
+	maxClusterRadius: 60,
+	disableClusteringAtZoom: 14
 });
 
 var xmlhttp = new XMLHttpRequest();
