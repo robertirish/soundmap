@@ -2,6 +2,7 @@
 layout: post
 title: Field report—Tivoli Bays wetlands
 categories: [field reports]
+hidden: true
 ---
 
 This evening after putting our baby down and just before losing the light, I drove in to Tivoli Bays, a ~1,500-acre wildlife reserve not far from our home here in upstate New York. <!--more-->I took a small recording setup (a drop rig like those used by [George Vlad](https://mindful-audio.com)) consisting of a Sony PCM-M10 recorder, [MicBooster Clippy](https://micbooster.com/clippy-and-pluggy-microphones/98-295-clippy-stereo-em272-microphone.html#/84-plug_type-right_angle/203-microphone-em272z1) microphones and some [Windbubbles](https://www.bubblebeeindustries.com/products/the-twin-windbubbles-2-per-package?variant=28407557123). After finding a spot that sounded interesting, I positioned the mics on the underside of a wide hand railing to provide some protection from rain, put the M10 in a dry bag and hit record.
