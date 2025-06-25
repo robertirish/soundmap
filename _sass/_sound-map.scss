@@ -456,3 +456,58 @@ h1 + .date {
 		}	
 	}
 }
+
+.wrapper-footer {
+	background-color: $white;
+
+	@include mobile {
+		display: none;
+	}
+}
+
+.darkmode-layer.darkmode-layer--button + .darkmode-toggle,
+.darkmode-layer.darkmode-layer--button {
+	bottom: 40px;
+
+	@include mobile {
+		bottom: 16px;
+		right: 16px;
+	}
+}
+
+// reduce height of mobile menu
+
+@include mobile {
+	.masthead {
+		display: flex;
+		padding: 10px 0;
+	}
+
+	.site-avatar {
+		margin-right: 15px;
+		height: 40px;
+	}
+
+	.site-info {
+		align-self: center;
+
+		.site-name {
+			font-size: 16px;
+			text-align: left;
+			align-self: center;
+			line-height: 1.2;
+		}
+
+		.site-description {
+			display: none;
+		}
+	}
+
+	.nav-menu {
+		margin-top: 0;
+
+		a {
+			font-size: 14px;
+		}
+	}
+}
