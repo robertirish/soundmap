@@ -118,11 +118,8 @@ xmlhttp.onreadystatechange = function() {
 				
 				marker.on('click', function(e) {
 					window.location.hash = this.layerId;
-					console.log(this.layerId);
 					
-					if (map.getZoom() < 16) {
-						map.setView(e.latlng, 16)
-					}
+					// map.setView([e.latlng['lat'] + 0.0025, e.latlng['lng']], 16);
 				}); 
 				
 				markers.eachLayer(function(layer) {
@@ -143,7 +140,7 @@ xmlhttp.send();
 // add hidden markers
 var hidden = L.divIcon({
 	className: 'marker-hidden',
-	html: '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#0000ff" /></svg>',
+	html: '<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><circle cx="14" cy="14" r="14" stroke="#ffffff" stroke-width="6" fill="#ff0000" /></svg>',
 	iconSize: [12, 12],
 	iconAnchor: [6, 6],
 	popupAnchor: [0, -10]
@@ -184,6 +181,7 @@ window.addEventListener('load', function () {
 	}
 });   
 
+// go to marker indicated by url hash
 function goToMarker(){
 	var hash = window.location.hash;
   	
@@ -198,7 +196,6 @@ function goToMarker(){
 
 		markers.eachLayer(function(layer) {
 	    	if (layer.layerId == hashID) {
-				map.setView(layer.getLatLng(), 16);
 
 				setTimeout(() => {
 					layer.openPopup();
@@ -208,6 +205,14 @@ function goToMarker(){
 	}
 }
 
+// center map view on popup
+map.on('popupopen', function(e) {
+    var px = map.project(e.target._popup._latlng); // find the pixel location on the map where the popup anchor is
+    px.y -= e.target._popup._container.clientHeight/2; // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
+    map.panTo(map.unproject(px),{animate: true}); // pan to new center
+});
+
+//dark mode
 if (document.body.classList.contains('darkmode--activated')) {
 	map.addLayer(darkMode);
 } else {
