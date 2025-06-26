@@ -208,7 +208,7 @@ function goToMarker(){
 // center map view on popup
 map.on('popupopen', function(e) {
     var px = map.project(e.target._popup._latlng);
-    px.y -= e.target._popup._container.clientHeight / 2 - 60; // subtract height of mobile header to address iOS weirdness
+    px.y -= e.target._popup._container.clientHeight / 2 - 40; // subtract a little for small screens so popup appears a little closer to the top
     map.panTo(map.unproject(px), {animate: true});
 });
 
