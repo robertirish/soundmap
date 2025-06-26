@@ -16,12 +16,19 @@ title: Map
 <script src="https://cdn.maptiler.com/maptiler-geocoding-control/v1.3.3/leaflet.umd.js"></script>
 <link href="https://cdn.maptiler.com/maptiler-geocoding-control/v1.3.3/style.css" rel="stylesheet">
 
+<link rel="stylesheet" href="assets/leaflet-search.min.css" />
+<link rel="stylesheet" href="assets/leaflet-search.mobile.min.css" />
+<script src="assets/leaflet-search.min.js"></script>
+
+<!-- marker data -->
+<script src="assets/data/data.js"></script>	
+
 <div id="map"></div>
 
 <div id="display_hidden_markers"></div>
 
 <script type="text/javascript">
-var map = L.map('map', { attributionControl: false }).setView([42.052343, -73.908634], 14);
+var map = L.map('map', { attributionControl: false , maxZoom: 20 }).setView([42.052343, -73.908634], 14);
 
 const lightMode = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -96,46 +103,34 @@ var markers = L.markerClusterGroup({
 	maxClusterRadius: 60,
 	disableClusteringAtZoom: 14
 });
+			
+var features = {};
 
-var xmlhttp = new XMLHttpRequest();
+for (var i = 0; i < data.length; i++) {
+	var feature = data[i];
 
-xmlhttp.onreadystatechange = function() {
-  if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-		if (xmlhttp.status == 200) {
-			var data = JSON.parse(xmlhttp.responseText);
-			var locs = {};
-
-			for (var i = 0; i < data.length; i++) {
-				var loc = data[i];
-
-				if (loc.properties.trackId) {
-					var marker = L.marker(loc.geometry.coordinates, {title: loc.properties.name, parentLayer: loc.properties.id, icon: window[loc.properties.icon]}).bindPopup(loc.properties.description + '<iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + loc.properties.trackId + '&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>');
-				} else {
-					var marker = L.marker(loc.geometry.coordinates, {title: loc.properties.name, icon: window[loc.properties.icon]}).bindPopup(loc.properties.description);
-				}
-
-				markers.addLayer(marker);
-				
-				marker.on('click', function(e) {
-					window.location.hash = this.layerId;
-					
-					// map.setView([e.latlng['lat'] + 0.0025, e.latlng['lng']], 16);
-				}); 
-				
-				markers.eachLayer(function(layer) {
-					if (layer.layerId == null) {
-						layer.layerId = loc.properties.id;
-					}
-				});
-			}
-
-			map.addLayer(markers);
-  	}
+	if (feature.properties.trackId) {
+		var marker = L.marker(feature.geometry.coordinates, {title: feature.properties.name, parentLayer: feature.properties.id, icon: window[feature.properties.icon]}).bindPopup(feature.properties.description + '<iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + feature.properties.trackId + '&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>');
+	} else {
+		var marker = L.marker(feature.geometry.coordinates, {title: feature.properties.name, icon: window[feature.properties.icon]}).bindPopup(feature.properties.description);
 	}
+
+	markers.addLayer(marker);;
+	
+	marker.on('click', function(e) {
+		window.location.hash = this.layerId;
+		
+		// map.setView([e.latlng['lat'] + 0.0025, e.latlng['lng']], 16);
+	}); 
+	
+	markers.eachLayer(function(layer) {
+		if (layer.layerId == null) {
+			layer.layerId = feature.properties.id;
+		}
+	});
 }
 
-xmlhttp.open("GET", "/assets/data/markers.geojson", true);
-xmlhttp.send();
+map.addLayer(markers);
 
 // add hidden markers
 var hidden = L.divIcon({
