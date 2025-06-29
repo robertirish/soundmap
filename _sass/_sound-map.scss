@@ -476,7 +476,6 @@ h1 + .date {
 }
 
 // reduce height of mobile menu
-
 @include mobile {
 	.masthead {
 		display: flex;
@@ -516,6 +515,7 @@ h1 + .date {
 	}
 }
 
+// leaflet-search
 .leaflet-control-search {
 	border: 1px solid $paleGray !important;
 
