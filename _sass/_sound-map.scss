@@ -680,6 +680,8 @@ h1 + .date {
 	}
 
 	.darkmode--activated & {
-		filter: invert(100%);
+		background: $darkerGray;
+		border-color: $darkGray;
+		color: $midGray;
 	}
 }
