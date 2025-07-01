@@ -601,3 +601,78 @@ h1 + .date {
 	  transform: translate(0)
 	}
 }
+
+// map popup styling
+.feature {
+	.feature-header {
+		margin-bottom: 8px;
+		margin-bottom: .5rem;
+
+		.feature-title,
+		.feature-title::after,
+		.feature-location {
+			display: inline;
+			font-weight: 700;
+			font-size: 16px !important;
+			line-height: 1.6666666667;
+		}
+
+		.feature-title::after {
+			content: ' — ';
+			display: inline;
+		}
+
+		.feature-location {
+			color: $black;
+
+			&:hover, 
+			&:focus,
+			&:visited {
+				color: $black;
+				text-decoration: none;
+			}
+
+			.feature-latlng {
+				@include visually-hidden;
+			}
+		}
+
+		.feature-link {
+			display: inline-block;
+			position: relative;
+			z-index: 10;
+
+			.link-icon {
+				pointer-events: none;
+				display: inline-block;
+				width: 22px;
+				height: 27px;
+				text-indent: -9999px;
+				color: transparent;
+				background-image: url('images/link.svg');
+				background-size: contain;
+				background-position: center center;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+}
+
+// tooltips
+.tooltip {
+	opacity: 0;
+	background: $lightGray;
+	border: 1px solid $paleGray;
+	color: $midGray;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	padding: 2px 4px;
+	line-height: 1.4;
+	white-space: nowrap;
+	position: absolute;
+	
+	&.showTooltip {
+		opacity: 1;
+		z-index: 100;
+	}
+}

@@ -6,10 +6,12 @@ var data = [
       "coordinates": [41.921323, -73.951866]
     },
     "properties": {
-      "name": "Amtrak train arriving at the platform - Rhinecliff, NY",
-      "id": "2024-09-16-amtrak-train-arriving-at-platform-rhinecliff-ny",
+      "name": "Amtrak train arriving at the platform",
+      "location": "Rhinecliff, NY",
+      "date": "2024-09-16",
+      "time": "",
       "icon": "museum",
-      "description": "<h3>Amtrak train arriving at the platform - Rhinecliff, NY</h3><p>Recorded September 16, 2024 at 1:00 p.m.</p><p>Sony PCM-D100</p>",
+      "description": "<p>Sony PCM-D100</p>",
       "trackId": "1921561688"
     }
   },
@@ -20,10 +22,12 @@ var data = [
       "coordinates": [40.725010, -73.995468]
     },
     "properties": {
-      "name": "Ambient music played by street performers in SoHo - New York, NY",
-      "id": "2023-09-22-ambient-music-played-by-street-performers-in-soho-new-york-ny",
+      "name": "Ambient music played by street performers in SoHo",
+      "location": "New York, NY",
+      "date": "2023-09-22",
+      "time": "",
       "icon": "museum",
-      "description": "<h3>Ambient music played by street performers in SoHo - New York, NY</h3><p>Some beautiful music performed by two musicians on a street-corner in SoHo, until they were stopped by the NYPD.</p><p>Recorded September 22, 2023 at 12:15 p.m.</p><p>Sound Devices MixPre 6 II + EM172 Clippys</p>",
+      "description": "<p>Some beautiful music performed by two musicians on a street-corner in SoHo, until they were stopped by the NYPD.</p><p>Sound Devices MixPre 6 II + EM172 Clippys</p>",
       "trackId": "1921131314"
     }
   },
@@ -34,10 +38,12 @@ var data = [
       "coordinates": [42.034704, -73.905437]
     },
     "properties": {
-      "name": "Canada geese - Tivoli, NY",
-      "id": "2024-09-03-canada-geese-tivoli-ny",
+      "name": "Canada Geese flying overhead",
+      "location": "Tivoli Bays WMA, Tivoli, NY",
+      "date": "2024-09-03TT06:20:00",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Canada geese - Tivoli, NY</h3><p>Canada geese calling as they fly over Tivoli Bays Wildlife Management Area, Tivoli, NY.</p><p>Recorded September 3, 2024 at 6:20 a.m.</p><p>Zoom F3 + DPA 4060</p>",
+      "description": "<p>Canada geese calling as they fly over Tivoli Bays Wildlife Management Area, Tivoli, NY.</p><p>Zoom F3 + DPA 4060</p>",
       "trackId": "1910225498"
     }
   },
@@ -48,10 +54,12 @@ var data = [
       "coordinates": [42.0570125,-73.9178896]
     },
     "properties": {
-      "name": "Barred owl duet - Tivoli, NY",
-      "id": "2024-08-26-barred-owl-duet-tivoli-ny",
+      "name": "Barred owl duet",
+      "location": "Tivoli, NY",
+      "date": "2024-08-26TT20:30:00",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Barred owl duet - Tivoli, NY</h3><p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Recorded August 26, 2024, 8:30 p.m.</p><p>Zoom F3 + DPA 4060</p>",
+      "description": "<p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Zoom F3 + DPA 4060</p>",
       "trackId": "1910810306"
     }
   },
@@ -62,10 +70,12 @@ var data = [
       "coordinates": [41.499538, -73.983012]
     },
     "properties": {
-      "name": "Richard Serra, '2000' (2000) - Beacon, NY",
-      "id": "2024-08-10-richard-serra-2000-2000-beacon-ny",
+      "name": "Richard Serra, '2000' (2000)",
+      "location": "Beacon, NY",
+      "date": "2024-08-10",
+      "time": "",
       "icon": "museum",
-      "description": "<h3>Richard Serra, <em>2000</em> (2000) - Beacon, NY</h3><p>The ambience inside Richard Serra's sculpture <em>2000</em> (2000) at the Dia Art Foundation, Beacon, NY.</p><p>Recorded August 10, 2024.</p><p>Sound Devices MixPre 6 + DPA 4060</p>",
+      "description": "<p>The ambience inside Richard Serra's sculpture <em>2000</em> (2000) at the Dia Art Foundation, Beacon, NY.</p><p>Sound Devices MixPre 6 + DPA 4060</p>",
       "trackId": "1914867971"
     }
   },
@@ -76,10 +86,12 @@ var data = [
       "coordinates": [42.070036, -73.911976]
     },
     "properties": {
-      "name": "Morning chorus on Sengstack Ln - Tivoli, NY",
-      "id": "2025-05-02-morning-chorus-sengstack-ln-tivoli-ny",
+      "name": "Morning chorus on Sengstack Ln",
+      "location": "Tivoli, NY",
+      "date": "2025-05-02",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Morning chorus on Sengstack Ln — Tivoli, NY</h3><p>Pileated Woodpeckers, Mourning Doves, Northern Cardinals, Grackles, Red-wing Blackbirds, American Robins, and many more species make up the morning chorus during the spring in the northeast.</p><p>Recorded May 2, 2025.</p><p>Sound Devices MixPre 6 + MKH 8040 pair</p>",
+      "description": "<p>Pileated Woodpeckers, Mourning Doves, Northern Cardinals, Grackles, Red-wing Blackbirds, American Robins, and many more species make up the morning chorus during the spring in the northeast.</p><p>Sound Devices MixPre 6 + MKH 8040 pair</p>",
       "trackId": "2090089926"
     }
   },
@@ -90,10 +102,12 @@ var data = [
       "coordinates": [42.068127, -73.903924]
     },
     "properties": {
-      "name": "Small waterfall on Stonybrook Rd, Tivoli, NY",
-      "id": "2025-05-02-small-waterfall-stonybrook-rd-tivoli-ny",
+      "name": "Small waterfall on Stonybrook Rd",
+      "location": "Tivoli, NY",
+      "date": "2025-05-02",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Small waterfall on Stonybrook Rd, Tivoli, NY</h3><p>Recorded May 2, 2025.</p><p>Sound Devices MixPre 6 + MKH 8040 pair</p>",
+      "description": "<p>Sound Devices MixPre 6 + MKH 8040 pair</p>",
       "trackId": "2090090781"
     }
   },
@@ -104,10 +118,12 @@ var data = [
       "coordinates": [42.057646, -73.908640]
     },
     "properties": {
-      "name": "Steady rain on Washburn Ave, Tivoli, NY",
-      "id": "2025-05-04-steady-rain-washburn-ave-tivoli-ny",
+      "name": "Steady rain on Washburn Ave",
+      "location": "Tivoli, NY",
+      "date": "2025-05-04",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Steady rain on Washburn Ave, Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sound Devices MixPre 6 II + MKH 8020 pair</p>",
+      "description": "<p>Sound Devices MixPre 6 II + MKH 8020 pair</p>",
       "trackId": "2090098962"
     }
   },
@@ -118,10 +134,12 @@ var data = [
       "coordinates": [42.058634, -73.916979]
     },
     "properties": {
-      "name": "Gray Catbird song - Tivoli, NY",
-      "id": "2025-05-05-gray-catbird-song-tivoli-ny",
+      "name": "Gray Catbird song",
+      "location": "Tivoli, NY",
+      "date": "2025-05-05",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Gray Catbird song - Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
+      "description": "<p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
       "trackId": "2090807259"
     }
   },
@@ -132,10 +150,12 @@ var data = [
       "coordinates": [42.054622, -73.915023]
     },
     "properties": {
-      "name": "Running stream with morning birds, Kaatsbaan Cultural Park, Tivoli, NY",
-      "id": "2025-05-05-running-stream-morning-birds-kaatsbaan-cultural-park-tivoli-ny",
+      "name": "Running stream with morning birds",
+      "location": "Kaatsbaan Cultural Park, Tivoli, NY",
+      "date": "2025-05-05",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Running stream with morning birds, Kaatsbaan Cultural Park, Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
+      "description": "<p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
       "trackId": "2090807514"
     }
   },
@@ -146,10 +166,12 @@ var data = [
       "coordinates": [42.058055, -73.916748]
     },
     "properties": {
-      "name": "Running stream in Kaatsbaan Cultural Park, Tivoli, NY",
-      "id": "2025-05-05-running-stream-kaatsbaan-cultural-park-tivoli-ny",
+      "name": "Running stream",
+      "location": "Kaatsbaan Cultural Park, Tivoli, NY",
+      "date": "2025-05-05",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Running stream in Kaatsbaan Cultural Park, Tivoli, NY</h3><p>Recorded May 4, 2025.</p><p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
+      "description": "<p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
       "trackId": "2090807976"
     }
   },
@@ -160,10 +182,12 @@ var data = [
       "coordinates": [42.042585, -73.909315]
     },
     "properties": {
-      "name": "Red-bellied Woodpecker calls - Tivoli Bays, Tivoli, NY",
-      "id": "2025-06-11-red-bellied-woodpecker-tivoli-bays-tivoli-ny",
+      "name": "Red-bellied Woodpecker calls",
+      "location": "Tivoli Bays WMA, Tivoli, NY",
+      "date": "2025-06-11",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Red-bellied Woodpecker calls - Tivoli Bays, Tivoli, NY</h3><p>2025-06-11</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383868"
     }
   },
@@ -174,10 +198,12 @@ var data = [
       "coordinates": [42.040533, -73.910297]
     },
     "properties": {
-      "name": "Woodthrush calls - Tivoli Bays, Tivoli, NY",
-      "id": "2025-06-11-woodthrush-tivoli-bays-tivoli-ny",
+      "name": "Woodthrush calls",
+      "location": "Tivoli Bays WMA, Tivoli, NY",
+      "date": "2025-06-11",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Woodthrush calls - Tivoli Bays, Tivoli, NY</h3><p>2025-06-11</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383889"
     }
   },
@@ -188,10 +214,12 @@ var data = [
       "coordinates": [42.039841, -73.910498]
     },
     "properties": {
-      "name": "Scarlet Tanager calls - Tivoli Bays, Tivoli, NY",
-      "id": "2025-06-12-scarlet-tanager-tivoli-bays-tivoli-ny",
+      "name": "Scarlet Tanager calls",
+      "location": "Tivoli Bays WMA, Tivoli, NY",
+      "date": "2025-06-12",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Scarlet Tanager calls - Tivoli Bays, Tivoli, NY</h3><p>2025-06-12</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383880"
     }
   },
@@ -202,10 +230,12 @@ var data = [
       "coordinates": [42.038603, -73.911054]
     },
     "properties": {
-      "name": "Red-bellied Woodpecker calling and drumming - Tivoli Bays, Tivoli, NY",
-      "id": "2025-06-12-red-bellied-woodpecker-tivoli-bays-tivoli-ny",
+      "name": "Red-bellied Woodpecker calling and drumming",
+      "location": "Tivoli Bays WMA, Tivoli, NY",
+      "date": "2025-06-12",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Red-bellied Woodpecker calling and drumming - Tivoli Bays, Tivoli, NY</h3><p>2025-06-12</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383883"
     }
   },
@@ -216,10 +246,12 @@ var data = [
       "coordinates": [42.070077, -73.912588]
     },
     "properties": {
-      "name": "Common Yellowthroat singing - Sengstack Ln, Tivoli, NY",
-      "id": "025-06-11-common-yellowthroat-tivoli-ny",
+      "name": "Common Yellowthroat singing",
+      "location": "Sengstack Ln, Tivoli, NY",
+      "date": "2025-06-11",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Common Yellowthroat singing - Sengstack Ln, Tivoli, NY</h3><p>2025-06-11</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383871"
     }
   },
@@ -230,10 +262,12 @@ var data = [
       "coordinates": [42.070027, -73.911700]
     },
     "properties": {
-      "name": "Orchard Oriole song - Sengstack Ln, Tivoli, NY",
-      "id": "2025-06-04-orchard-oriole-tivoli-ny",
+      "name": "Orchard Oriole song",
+      "location": "Sengstack Ln, Tivoli, NY",
+      "date": "2025-06-04",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Orchard Oriole song - Sengstack Ln, Tivoli, NY</h3><p>2025-06-04</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383874"
     }
   },
@@ -244,10 +278,12 @@ var data = [
       "coordinates": [42.068904, -73.907073]
     },
     "properties": {
-      "name": "Red-eyed Vireo singing - Sengstack Ln, Tivoli, NY",
-      "id": "2025-06-04-red-eyed-vireo-tivoliny",
+      "name": "Red-eyed Vireo singing",
+      "location": "Sengstack Ln, Tivoli, NY",
+      "date": "2025-06-04",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Red-eyed Vireo singing - Sengstack Ln, Tivoli, NY</h3><p>  2025-06-04</p><p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
+      "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383877"
     }
   },
@@ -258,10 +294,12 @@ var data = [
       "coordinates": [42.069883, -73.910458]
     },
     "properties": {
-      "name": "Eastern Kingbird calls - Sengstack Ln, Tivoli, NY",
-      "id": "2025-06-04-eastern-kingbird-tivoli-ny",
+      "name": "Eastern Kingbird calls",
+      "location": "Sengstack Ln, Tivoli, NY",
+      "date": "2025-06-04",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Eastern Kingbird calls - Sengstack Ln, Tivoli, NY</h3><p>2025-06-04</p><p>Parabolic dish w/ MKH8020</p>",
+      "description": "<p>Parabolic dish w/ MKH8020</p>",
       "trackId": "2112383895"
     }
   },
@@ -272,10 +310,11 @@ var data = [
       "coordinates": [42.070433, -73.912502]
     },
     "properties": {
-      "name": "Red-winged Blackbird calls - Sengstack Ln, Tivoli, NY",
-      "id": "2025-06-11-red-winged-blackbird-tivoli-ny",
+      "name": "Red-winged Blackbird calls",
+      "location": "Sengstack Ln, Tivoli, NY",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Red-winged Blackbird calls - Sengstack Ln, Tivoli, NY</h3><p>2025-06-11</p><p>Parabolic dish w/ MKH8020</p>",
+      "description": "<p>Parabolic dish w/ MKH8020</p>",
       "trackId": "2112383892"
     }
   },
@@ -286,10 +325,12 @@ var data = [
       "coordinates": [42.070320, -73.914750]
     },
     "properties": {
-      "name": "American Robin singing - Sengstack Ln, Tivoli, NY",
-      "id": "2025-06-04-american-robin-tivoli-ny",
+      "name": "American Robin singing",
+      "location": "Sengstack Ln, Tivoli, NY",
+      "date": "2025-06-04",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>American Robin singing - Sengstack Ln, Tivoli, NY</h3><p>2025-06-04</p><p>Parabolic dish w/ MKH8020</p>",
+      "description": "<p>Parabolic dish w/ MKH8020</p>",
       "trackId": "2112383886"
     }
   },
@@ -300,10 +341,12 @@ var data = [
       "coordinates": [42.066936, -73.907652]
     },
     "properties": {
-      "name": "Northern Mockingbird imitates car alarms and local bird calls - North Rd, Tivoli, NY",
-      "id": "2025-06-18-northern-mockingbird-tivoli-ny",
+      "name": "Northern Mockingbird imitates car alarms and local bird calls",
+      "location": "North Rd, Tivoli, NY",
+      "date": "2025-06-18",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Northern Mockingbird imitates car alarms and local bird calls - North Rd, Tivoli, NY</h3><p>2025-06-18</p><p>DIY parabola with MKH8020 + Sound Devices MixPre 6 II</p>",
+      "description": "<p>DIY parabola with MKH8020 + Sound Devices MixPre 6 II</p>",
       "trackId": "2115820401"
     }
   },
@@ -314,10 +357,12 @@ var data = [
       "coordinates": [42.057609, -73.907937]
     },
     "properties": {
-      "name": "Downy Woodpecker calls - Washburn Ave, Tivoli, NY",
-      "id": "2025-06-17-downy-woodpecker-tivoli-ny",
+      "name": "Downy Woodpecker calls",
+      "location": "Washburn Ave, Tivoli, NY",
+      "date": "2025-06-17",
+      "time": "",
       "icon": "bird",
-      "description": "<h3>Downy Woodpecker calls - Washburn Ave, Tivoli, NY</h3><p>2025-06-17</p><p>DIY parabola with MKH8020 + Sound Devices MixPre 6 II</p>",
+      "description": "<p>DIY parabola with MKH8020 + Sound Devices MixPre 6 II</p>",
       "trackId": "2115821625"
     }
   }
