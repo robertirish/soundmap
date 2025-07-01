@@ -252,8 +252,8 @@ function showTooltip(event, delay) {
 		var parent = event.target.parentElement;
 	  var rect = parent.getBoundingClientRect();
 
-		var pageX = event.clientX - rect.left + 20 - (parseInt(tooltip.offsetWidth, 10) / 2);	
-		var pageY = event.clientY - rect.top + 13 - 16;
+		var pageX = event.clientX - rect.left + 20 - (parseInt(tooltip.offsetWidth, 10) / 2);	// account for 20px margin-left on container
+		var pageY = event.clientY - rect.top + 13 - 16; // account for 13px margin-top on container
 		
 		tooltip.style.top = pageY + 'px';
 		tooltip.style.left = pageX + 'px';
