@@ -39,9 +39,6 @@ navigation_links:
   - title: About
     url: /about
 
-  - title: Search
-    url: /search
-
 # Footer icons
 footer_links:
   # - title: Feed
