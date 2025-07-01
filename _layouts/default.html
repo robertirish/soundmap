@@ -4,7 +4,9 @@
     {% include meta.html %}
 
     {% seo title=false %}
-    {% if page.title %}
+    {% if page.url == "/" %}
+    <title>{{ site.title }}&#32;&#45;&#32;{{ site.description }}</title>
+    {% elsif page.title %}
     <title>{{ page.title }}&#32;&#45;&#32;{{ site.title }}</title>
     {% else %}
     <title>{{ site.description }}&#32;&#45;&#32;{{ site.title }}</title>
