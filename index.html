@@ -125,9 +125,9 @@ var markers = L.geoJson(
 			var markerLatlng = feature.geometry.coordinates[0] + ', ' + feature.geometry.coordinates[1];
 
 			if (feature.properties.trackId) {
-				marker = L.marker(feature.geometry.coordinates, {title: feature.properties.name, parentLayer: feature.properties.id, icon: window[feature.properties.icon]}).bindPopup('<article class="h-entry feature"><header class="feature-header"><h3 class="p-name feature-title">' + feature.properties.name + '</h3><p class="p-location feature-location">' + feature.properties.location + ' <span class="feature-latlng">[<span class="p-latitude">' + feature.geometry.coordinates[0] + '</span>, <span class="p-longitude">' + feature.geometry.coordinates[1] + '</span>]</span> <a class="feature-link u-url" onclick="copyToClipboard(event);" href="https://sound-map.org/#' + markerLayerId + '"><span class="link-icon">(permalink)</span></a><span class="feature-link-tooltip tooltip" data-text="https://sound-map.org/#' + markerLayerId + '" data-success="Link copied to clipboard" data-failure="Failed to copy link"></header><p class="feature-date">Recorded <time class="dt-published" datetime="' + feature.properties.date + ' ' + feature.properties.time + '">' + feature.properties.date + ' ' + feature.properties.time + '</time></p><div class="e-content feature-description">' + feature.properties.description + '<iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + feature.properties.trackId + '&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe></div></article>');
+				marker = L.marker(feature.geometry.coordinates, {title: feature.properties.name, parentLayer: feature.properties.id, icon: window[feature.properties.icon]}).bindPopup('<article class="h-entry feature"><header class="feature-header"><h3 class="p-name feature-title">' + feature.properties.name + '</h3><p class="p-location feature-location">' + feature.properties.location + ' <span class="feature-latlng">[<span class="p-latitude">' + feature.geometry.coordinates[0] + '</span>, <span class="p-longitude">' + feature.geometry.coordinates[1] + '</span>]</span> <a class="feature-link u-url" onclick="copyToClipboard(event);" href="https://sound-map.org/#' + markerLayerId + '"><span class="link-icon">(permalink)</span></a><span class="feature-link-tooltip tooltip" data-text="https://sound-map.org/#' + markerLayerId + '" data-success="Link copied to clipboard" data-failure="Failed to copy link">Link copied to clipboard</span></header><p class="feature-date">Recorded <time class="dt-published" datetime="' + feature.properties.date + ' ' + feature.properties.time + '">' + feature.properties.date + ' ' + feature.properties.time + '</time></p><div class="e-content feature-description">' + feature.properties.description + '<iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + feature.properties.trackId + '&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe></div></article>');
 			} else {
-				marker = L.marker(feature.geometry.coordinates, {title: feature.properties.name, icon: window[feature.properties.icon]}).bindPopup('<article class="h-entry feature"><header class="feature-header"><h3 class="p-name feature-title">' + feature.properties.name + '</h3><p class="p-location feature-location">' + feature.properties.location + ' <span class="feature-latlng">[<span class="p-latitude">' + feature.geometry.coordinates[0] + '</span>, <span class="p-longitude">' + feature.geometry.coordinates[1] + '</span>]</p> <a class="feature-link u-url" onclick="copyURI(event)" href="https://sound-map.org/#' + markerLayerId + '"><span class="link-icon">(permalink)</span><span class="tooltip"></span></a></header><p class="feature-date">Recorded <time class="dt-published" datetime="' + feature.properties.date + ' ' + feature.properties.time + '">' + feature.properties.date + ' ' + feature.properties.time + '</time></p><div class="e-content feature-description">' + feature.properties.description + '</div></article>');
+				marker = L.marker(feature.geometry.coordinates, {title: feature.properties.name, icon: window[feature.properties.icon]}).bindPopup('<article class="h-entry feature"><header class="feature-header"><h3 class="p-name feature-title">' + feature.properties.name + '</h3><p class="p-location feature-location">' + feature.properties.location + ' <span class="feature-latlng">[<span class="p-latitude">' + feature.geometry.coordinates[0] + '</span>, <span class="p-longitude">' + feature.geometry.coordinates[1] + '</span>]</span> <a class="feature-link u-url" onclick="copyToClipboard(event);" href="https://sound-map.org/#' + markerLayerId + '"><span class="link-icon">(permalink)</span></a><span class="feature-link-tooltip tooltip" data-text="https://sound-map.org/#' + markerLayerId + '" data-success="Link copied to clipboard" data-failure="Failed to copy link">Link copied to clipboard</span></header><p class="feature-date">Recorded <time class="dt-published" datetime="' + feature.properties.date + ' ' + feature.properties.time + '">' + feature.properties.date + ' ' + feature.properties.time + '</time></p><div class="e-content feature-description">' + feature.properties.description + '</div></article>');
 			}
 
 			// enable linking to markers via layerId + url hash
@@ -230,7 +230,7 @@ function goToMarker(){
 // center map view on popup
 map.on('popupopen', function(e) {
     var px = map.project(e.target._popup._latlng);
-    px.y -= e.target._popup._container.clientHeight / 2 - 40; // subtract a little for small screens so popup appears a little closer to the top
+    px.y -= e.target._popup._container.clientHeight / 2 - 40; // subtract a little for small screens so popup appears closer to the top
     map.panTo(map.unproject(px), {animate: true});
 });
 
@@ -248,15 +248,12 @@ function showTooltip(event, delay) {
 
 	var tooltip = event.target.nextElementSibling;
 
-	if (!tooltip.classList.contains('showTooltip')) {
+	if (! tooltip.classList.contains('showTooltip')) {
 		var parent = event.target.parentElement;
 	  var rect = parent.getBoundingClientRect();
-		var parentStyle = window.getComputedStyle(parent);
-	  var marginLeft = parseInt(parentStyle.getPropertyValue('margin-left'), 10);
-	  var marginTop = parseInt(parentStyle.getPropertyValue('margin-top'), 10);
 
-		var pageX = event.clientX - rect.left + marginLeft + 16;	
-		var pageY = event.clientY - rect.top + marginTop - 16;
+		var pageX = event.clientX - rect.left + 20 - (parseInt(tooltip.offsetWidth, 10) / 2);	
+		var pageY = event.clientY - rect.top + 13 - 16;
 		
 		tooltip.style.top = pageY + 'px';
 		tooltip.style.left = pageX + 'px';

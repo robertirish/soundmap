@@ -27,6 +27,7 @@ html {
 
 	.darkmode--activated & svg {
 		fill: $paleGray;
+		stroke: $paleGray;
   }
 }
 
@@ -475,6 +476,11 @@ h1 + .date {
 	}
 }
 
+// lowercase nav-menu links 
+.nav-menu a {
+	text-transform: lowercase;
+}
+
 // reduce height of mobile menu
 @include mobile {
 	.masthead {
@@ -508,8 +514,7 @@ h1 + .date {
 		z-index: 9999;
 
 		a {
-			font-size: 14px;
-			margin-left: 5px;
+			font-size: 16px;
 			margin-right: 0;
 		}
 	}
@@ -574,6 +579,9 @@ h1 + .date {
 		}
 	}
 
+	.darkmode--activated & {
+		filter: invert(100%);
+	}
 }
 
 @keyframes backAndForth {
@@ -622,19 +630,8 @@ h1 + .date {
 			display: inline;
 		}
 
-		.feature-location {
-			color: $black;
-
-			&:hover, 
-			&:focus,
-			&:visited {
-				color: $black;
-				text-decoration: none;
-			}
-
-			.feature-latlng {
-				@include visually-hidden;
-			}
+		.feature-latlng {
+			@include visually-hidden;
 		}
 
 		.feature-link {
@@ -656,6 +653,10 @@ h1 + .date {
 			}
 		}
 	}
+
+	.darkmode--activated & .feature-header .feature-link .link-icon {
+		filter: invert(100%);
+	}
 }
 
 // tooltips
@@ -666,13 +667,19 @@ h1 + .date {
 	color: $midGray;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	padding: 2px 4px;
+	padding: 8px 12px;
 	line-height: 1.4;
 	white-space: nowrap;
+	width: fit-content;
 	position: absolute;
+	pointer-events: none;
+	z-index: 9999;
 	
 	&.showTooltip {
 		opacity: 1;
-		z-index: 100;
+	}
+
+	.darkmode--activated & {
+		filter: invert(100%);
 	}
 }
