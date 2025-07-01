@@ -254,9 +254,26 @@ function showTooltip(event, delay) {
 
 		var pageX = event.clientX - rect.left + 20 - (parseInt(tooltip.offsetWidth, 10) / 2);	// account for 20px margin-left on container
 		var pageY = event.clientY - rect.top + 13 - 16; // account for 13px margin-top on container
-		
+
 		tooltip.style.top = pageY + 'px';
 		tooltip.style.left = pageX + 'px';
+
+		// ensure tooltip is fully visible within viewport
+		if (! isInViewport(tooltip)) {
+			var tooltipRect = tooltip.getBoundingClientRect();
+
+			console.log(tooltipRect);
+
+			if (tooltipRect.left <= 0 ) {
+				tooltip.style.left = (pageX + (parseInt(tooltip.offsetWidth, 10) / 2)) + 'px';	
+			} else if (tooltipRect.right >= (window.innerWidth || document.documentElement.clientWidth)) {
+				tooltip.style.left = (pageX - (parseInt(tooltip.offsetWidth, 10) / 2)) + 'px';
+			}
+
+			if (tooltipRect.top <= 110 ) {
+				tooltip.style.top = (pageY + (parseInt(tooltip.offsetHeight, 10) * 1.5)) + 'px';	
+			}
+		}
 
 		tooltip.classList.add('showTooltip');
 
@@ -264,6 +281,17 @@ function showTooltip(event, delay) {
 			tooltip.classList.remove('showTooltip');
 		}, delay);
 	}
+}
+
+function isInViewport(el) {
+  var tooltipRect = el.getBoundingClientRect();
+  
+  return (
+    tooltipRect.top >= 110 &&
+    tooltipRect.left >= 0 &&
+    tooltipRect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    tooltipRect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
 }
 
 // copy marker url to clipboard
