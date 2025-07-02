@@ -40,7 +40,7 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/ress/dist/ress.min.css"/>
   </head>
 
-  <body class="page-{{ page.title | slugify }}">
+  <body class="page-{{ page.title | slugify }}{% if page.title == 'Map' %} page-loading{% endif %}">
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
