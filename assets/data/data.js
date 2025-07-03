@@ -365,5 +365,37 @@ var data = [
       "description": "<p>DIY parabola with MKH8020 + Sound Devices MixPre 6 II</p>",
       "trackId": "2115821625"
     }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.061827, -73.924352]
+    },
+    "properties": {
+      "name": "Four Great Blue Herons in flight over the Hudson River",
+      "location": "Tivoli, NY",
+      "date": "2025-07-03",
+      "time": "07:19:00",
+      "icon": "bird",
+      "description": "<p>Parabolic dish mounted with Sennheiser MKH 8020 + Sound Devices MixPre 6 II</p>",
+      "trackId": "2124171519"
+    }
+  },
+    { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.061552, -73.923746]
+    },
+    "properties": {
+      "name": "Northern Cardinal singing over the drone of a freight liner on the Hudson River",
+      "location": "Tivoli, NY",
+      "date": "2025-07-03",
+      "time": "08:09:00",
+      "icon": "bird",
+      "description": "<p>Parabolic dish mounted with Sennheiser MKH 8020 + Sound Devices MixPre 6 II</p>",
+      "trackId": "2124171762"
+    }
   }
 ]
