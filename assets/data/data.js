@@ -370,7 +370,7 @@ var data = [
     "type": "Feature",
     "geometry": {
       "type": "Point", 
-      "coordinates": [42.061827, -73.924352]
+      "coordinates": [42.061641, -73.931894]
     },
     "properties": {
       "name": "Four Great Blue Herons in flight over the Hudson River",
@@ -386,7 +386,7 @@ var data = [
     "type": "Feature",
     "geometry": {
       "type": "Point", 
-      "coordinates": [42.061552, -73.923746]
+      "coordinates": [42.060947, -73.924111]
     },
     "properties": {
       "name": "Northern Cardinal singing over the drone of a freight liner on the Hudson River",
