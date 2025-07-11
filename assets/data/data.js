@@ -382,7 +382,7 @@ var data = [
       "trackId": "2124171519"
     }
   },
-    { 
+  { 
     "type": "Feature",
     "geometry": {
       "type": "Point", 
@@ -396,6 +396,22 @@ var data = [
       "icon": "bird",
       "description": "<p>Parabolic dish mounted with Sennheiser MKH 8020 + Sound Devices MixPre 6 II</p>",
       "trackId": "2124171762"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.0625447, -73.9243466]
+    },
+    "properties": {
+      "name": "Indigo Bunting song over the lapping of the Hudson River",
+      "location": "Tivoli, NY",
+      "date": "2025-07-11",
+      "time": "06:42:00",
+      "icon": "bird",
+      "description": "<p>DIY Parabola with Sennheiser MKH 8020 into Sound Devices MixPre 6 II</p>",
+      "trackId": "2128484424"
     }
   }
 ]
