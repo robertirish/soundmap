@@ -370,7 +370,7 @@ var data = [
     "type": "Feature",
     "geometry": {
       "type": "Point", 
-      "coordinates": [42.061641, -73.931894]
+      "coordinates": [42.065143, -73.931208]
     },
     "properties": {
       "name": "Four Great Blue Herons in flight over the Hudson River",
@@ -412,6 +412,38 @@ var data = [
       "icon": "bird",
       "description": "<p>DIY Parabola with Sennheiser MKH 8020 into Sound Devices MixPre 6 II</p>",
       "trackId": "2128484424"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.059613, -73.924111]
+    },
+    "properties": {
+      "name": "2025-07-11 Southbound Amtrak train passing along the Hudson River",
+      "location": "Tivoli, NY",
+      "date": "2025-07-11",
+      "time": "06:07:00",
+      "icon": "bird",
+      "description": "<p>Sennheiser MKH 8040 (stereo pair in ORTF) + Zoom F3</p>",
+      "trackId": "2128515930"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.060410, -73.932045]
+    },
+    "properties": {
+      "name": "2025-07-11 Cargo ship travelling north on the Hudson River",
+      "location": "Tivoli, NY",
+      "date": "2025-07-11",
+      "time": "05:45:00",
+      "icon": "bird",
+      "description": "<p>Sennheiser MKH 8040 (stereo pair in ORTF) + Zoom F3</p>",
+      "trackId": "2128526598"
     }
   }
 ]
