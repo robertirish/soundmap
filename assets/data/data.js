@@ -42,7 +42,7 @@ var data = [
       "location": "Tivoli Bays WMA, Tivoli, NY",
       "date": "2024-09-03TT06:20:00",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Canada geese calling as they fly over Tivoli Bays Wildlife Management Area, Tivoli, NY.</p><p>Zoom F3 + DPA 4060</p>",
       "trackId": "1910225498"
     }
@@ -58,7 +58,7 @@ var data = [
       "location": "Tivoli, NY",
       "date": "2024-08-26TT20:30:00",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Barred owl duet in the forest of the Kaatsbaan Cultural Park, Tivoli, NY.</p><p>Zoom F3 + DPA 4060</p>",
       "trackId": "1910810306"
     }
@@ -90,7 +90,7 @@ var data = [
       "location": "Tivoli, NY",
       "date": "2025-05-02",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Pileated Woodpeckers, Mourning Doves, Northern Cardinals, Grackles, Red-wing Blackbirds, American Robins, and many more species make up the morning chorus during the spring in the northeast.</p><p>Sound Devices MixPre 6 + MKH 8040 pair</p>",
       "trackId": "2090089926"
     }
@@ -106,7 +106,7 @@ var data = [
       "location": "Tivoli, NY",
       "date": "2025-05-02",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Sound Devices MixPre 6 + MKH 8040 pair</p>",
       "trackId": "2090090781"
     }
@@ -122,7 +122,7 @@ var data = [
       "location": "Tivoli, NY",
       "date": "2025-05-04",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Sound Devices MixPre 6 II + MKH 8020 pair</p>",
       "trackId": "2090098962"
     }
@@ -138,7 +138,7 @@ var data = [
       "location": "Tivoli, NY",
       "date": "2025-05-05",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
       "trackId": "2090807259"
     }
@@ -154,7 +154,7 @@ var data = [
       "location": "Kaatsbaan Cultural Park, Tivoli, NY",
       "date": "2025-05-05",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
       "trackId": "2090807514"
     }
@@ -170,7 +170,7 @@ var data = [
       "location": "Kaatsbaan Cultural Park, Tivoli, NY",
       "date": "2025-05-05",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Sennheiser MKH 8040 pair (ORTF) + Sound Devices MixPre 6 II</p>",
       "trackId": "2090807976"
     }
@@ -186,7 +186,7 @@ var data = [
       "location": "Tivoli Bays WMA, Tivoli, NY",
       "date": "2025-06-11",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383868"
     }
@@ -198,11 +198,11 @@ var data = [
       "coordinates": [42.040533, -73.910297]
     },
     "properties": {
-      "name": "Woodthrush calls",
+      "name": "Wood Thrush calls",
       "location": "Tivoli Bays WMA, Tivoli, NY",
       "date": "2025-06-11",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383889"
     }
@@ -218,7 +218,7 @@ var data = [
       "location": "Tivoli Bays WMA, Tivoli, NY",
       "date": "2025-06-12",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383880"
     }
@@ -234,7 +234,7 @@ var data = [
       "location": "Tivoli Bays WMA, Tivoli, NY",
       "date": "2025-06-12",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383883"
     }
@@ -250,7 +250,7 @@ var data = [
       "location": "Sengstack Ln, Tivoli, NY",
       "date": "2025-06-11",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383871"
     }
@@ -266,7 +266,7 @@ var data = [
       "location": "Sengstack Ln, Tivoli, NY",
       "date": "2025-06-04",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383874"
     }
@@ -282,7 +282,7 @@ var data = [
       "location": "Sengstack Ln, Tivoli, NY",
       "date": "2025-06-04",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020, Sound Devices MixPre 6 II</p>",
       "trackId": "2112383877"
     }
@@ -298,7 +298,7 @@ var data = [
       "location": "Sengstack Ln, Tivoli, NY",
       "date": "2025-06-04",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020</p>",
       "trackId": "2112383895"
     }
@@ -313,7 +313,7 @@ var data = [
       "name": "Red-winged Blackbird calls",
       "location": "Sengstack Ln, Tivoli, NY",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020</p>",
       "trackId": "2112383892"
     }
@@ -329,7 +329,7 @@ var data = [
       "location": "Sengstack Ln, Tivoli, NY",
       "date": "2025-06-04",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish w/ MKH8020</p>",
       "trackId": "2112383886"
     }
@@ -345,7 +345,7 @@ var data = [
       "location": "North Rd, Tivoli, NY",
       "date": "2025-06-18",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>DIY parabola with MKH8020 + Sound Devices MixPre 6 II</p>",
       "trackId": "2115820401"
     }
@@ -361,7 +361,7 @@ var data = [
       "location": "Washburn Ave, Tivoli, NY",
       "date": "2025-06-17",
       "time": "",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>DIY parabola with MKH8020 + Sound Devices MixPre 6 II</p>",
       "trackId": "2115821625"
     }
@@ -377,7 +377,7 @@ var data = [
       "location": "Tivoli, NY",
       "date": "2025-07-03",
       "time": "07:19:00",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish mounted with Sennheiser MKH 8020 + Sound Devices MixPre 6 II</p>",
       "trackId": "2124171519"
     }
@@ -393,7 +393,7 @@ var data = [
       "location": "Tivoli, NY",
       "date": "2025-07-03",
       "time": "08:09:00",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Parabolic dish mounted with Sennheiser MKH 8020 + Sound Devices MixPre 6 II</p>",
       "trackId": "2124171762"
     }
@@ -409,7 +409,7 @@ var data = [
       "location": "Tivoli, NY",
       "date": "2025-07-11",
       "time": "06:42:00",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>DIY Parabola with Sennheiser MKH 8020 into Sound Devices MixPre 6 II</p>",
       "trackId": "2128484424"
     }
@@ -421,11 +421,11 @@ var data = [
       "coordinates": [42.059613, -73.924111]
     },
     "properties": {
-      "name": "2025-07-11 Southbound Amtrak train passing along the Hudson River",
+      "name": "Southbound Amtrak train passing along the Hudson River",
       "location": "Tivoli, NY",
       "date": "2025-07-11",
       "time": "06:07:00",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Sennheiser MKH 8040 (stereo pair in ORTF) + Zoom F3</p>",
       "trackId": "2128515930"
     }
@@ -437,13 +437,45 @@ var data = [
       "coordinates": [42.060410, -73.932045]
     },
     "properties": {
-      "name": "2025-07-11 Cargo ship travelling north on the Hudson River",
+      "name": "Cargo ship travelling north on the Hudson River",
       "location": "Tivoli, NY",
       "date": "2025-07-11",
       "time": "05:45:00",
-      "icon": "bird",
+      "icon": "circle",
       "description": "<p>Sennheiser MKH 8040 (stereo pair in ORTF) + Zoom F3</p>",
       "trackId": "2128526598"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.037936, -73.913704]
+    },
+    "properties": {
+      "name": "Wood Thrushes singing",
+      "location": "Tivoli Bays WMA, Tivoli, NY",
+      "date": "2025-07-21",
+      "time": "06:20:00",
+      "icon": "circle",
+      "description": "<p>DIY parabola with MKH 8020 into Sound Devices MixPre 6 II</p>",
+      "trackId": "2137159149"
+    }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.037829, -73.913548]
+    },
+    "properties": {
+      "name": "Black-and-white Warbler song",
+      "location": "Tivoli Bays WMA, Tivoli, NY",
+      "date": "2025-07-22",
+      "time": "07:30:00",
+      "icon": "circle",
+      "description": "<p>DIY parabola with MKH 8020 into Sound Devices MixPre 6 II</p>",
+      "trackId": "2137160160"
     }
   }
 ]
