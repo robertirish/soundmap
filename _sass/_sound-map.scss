@@ -549,7 +549,7 @@ h1 + .date {
 
 	.search-tooltip {
 		margin-top: 3px;
-		max-width: 280px;
+		max-width: 270px;
 		background-color: $white !important;
 		opacity: 1;
 		max-height: none !important;
@@ -626,7 +626,7 @@ h1 + .date {
 		}
 
 		.feature-title::after {
-			content: ' — ';
+			content: ' - ';
 			display: inline;
 		}
 
