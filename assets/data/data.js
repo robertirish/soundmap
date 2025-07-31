@@ -477,5 +477,21 @@ var data = [
       "description": "<p>DIY parabola with MKH 8020 into Sound Devices MixPre 6 II</p>",
       "trackId": "2137160160"
     }
+  },
+  { 
+    "type": "Feature",
+    "geometry": {
+      "type": "Point", 
+      "coordinates": [42.039089, -73.914982]
+    },
+    "properties": {
+      "name": "Marsh Wren song",
+      "location": "Tivoli Bays WMA, Tivoli, NY",
+      "date": "2025-07-30",
+      "time": "06:30:00",
+      "icon": "circle",
+      "description": "<p>A Marsh Wren sings from low down in the reeds flanking one of the channels that runs through the Tivoli Bays Wildlife Management Area. Dozens of bird species visit these wetlands and the surrounding area—warblers, herons, sandpipers, flycatchers and gulls can all be heard alongside the low croaking of northern Green Frogs.</p><p>DIY parabola with MKH 8020 + Zoom F3</p>",
+      "trackId": "2139304920"
+    }
   }
 ]
