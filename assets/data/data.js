@@ -490,7 +490,7 @@ var data = [
       "date": "2025-07-30",
       "time": "06:30:00",
       "icon": "circle",
-      "description": "<p>A Marsh Wren sings from low down in the reeds flanking one of the channels that runs through the Tivoli Bays Wildlife Management Area. Dozens of bird species visit these wetlands and the surrounding area—warblers, herons, sandpipers, flycatchers and gulls can all be heard alongside the low croaking of northern Green Frogs.</p><p>DIY parabola with MKH 8020 + Zoom F3</p>",
+      "description": "<p>A Marsh Wren sings from low down in the reeds flanking one of the channels that runs through the Tivoli Bays Wildlife Management Area. Dozens of bird species visit these wetlands and the surrounding area—warblers, herons, sandpipers, flycatchers and gulls can all be heard alongside the low croaking of northern Green Frogs.</p><p>DIY parabola with MKH 8020 + Zoom F3</p><p>Photo by Eric Ellingson, CC BY-NC-ND 2.0</p>",
       "trackId": "2139304920"
     }
   }
